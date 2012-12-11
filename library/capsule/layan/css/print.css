@@ -1,0 +1,325 @@
+
+.layan-checkbox-checked-print{
+	background-image: url("../../../../view/pages/system/images/checkbox_checked.png");
+	background-repeat: no-repeat;
+	background-position: center;
+margin-top: 1px;
+margin-right: 5px;
+	width: 9px;
+	height: 9px;
+	border: 1px solid #fff;
+
+	float: left;
+	
+}
+.layan-normal-form-container {
+	border: 1px dashed #c3c3c3;
+	padding: 15px;
+	-moz-box-shadow: 0px 1px 5px #888;
+	-webkit-box-shadow: 0px 1px 5px #888;
+	box-shadow: 0px 1px 5px #888;
+	background-color: #fffffc;
+}
+
+.layan-normal-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.layan-normal-table td {
+	padding: 5px;
+}
+
+.layan-normal-table-vertical-align {
+	vertical-align: top;
+}
+
+.layan-normal-form-hr {
+	border-left: 0px solid #949494;
+	border-right: 0px solid #949494;
+	border-top: 0px solid #949494;
+	border-bottom: 1px solid #ababab;
+	text-shadow: #f0f0f0;
+}
+
+.layan-normal-form-td1st {
+	width: 220px;
+	font-size: 13px;
+}
+
+.layan-normal-form-td2st {
+	width: 37px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.layan-normal-form-td3st {
+	width: 150px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.layan-normal-form-font12 {
+	font-size: 13px;
+}
+
+input[type="text"].layan-normal-form-input {
+	width: 97%;
+	outline: none;
+	border: 1px solid #c5c5c5;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	padding: 2px 2px 2px 5px;
+}
+
+input[type="text"].layan-normal-form-input:focus {
+	width: 97%;
+	outline: none;
+	border: 1px solid #7c955e;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	padding: 2px 2px 2px 5px;
+}
+
+.layan-normal-form-select {
+	width: 100%;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.layan-normal-table-multiple {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.layan-normal-table-multiple td {
+	padding: 5px;
+}
+
+.layan-normal-form-bold {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.layan-normal-plus-button {
+	background-image: url("../../view/pages/system/images/plus.png");
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	float: left;
+	margin-right: 5px;
+}
+
+.layan-normal-plus-button:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-normal-plus-button:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-normal-minus-button {
+	background-image: url("../../view/pages/system/images/minus.png");
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	float: left;
+}
+
+.layan-normal-minus-button:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-normal-minus-button:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-normal-form-action-button {
+	text-align: right;
+}
+
+.layan-normal-table-tr-hover:hover {
+	background-color: #ececec;
+}
+
+.layan-processing-text {
+	padding-bottom: 10px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.layan-processing {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 70px;
+	border: 1px solid #b5b5b5;
+	margin-top: -50px;
+	background-color: white;
+	padding: 30px;
+	-moz-border-radius: 0px 32px 0px 25px;
+	-webkit-border-radius: 0px 32px 0px 25px;
+	border-radius: 0px 32px 0px 25px;
+}
+
+.layan-permohonan-container,
+.layan-pembertahuan-container {
+	width: 100%;
+	border: thin solid #5d5d5d;
+	font-family: Helvetica, Arial, Georgia;
+	min-height: 98%;
+}
+.layan-checkbox-print{
+margin-top: 1px;
+margin-right: 5px;
+
+	width: 9px;
+	height: 9px;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	border: 1px solid #000;
+
+	float: left;
+}
+.layan-checkboxs-print{
+background-image: url("../../../../view/pages/system/images/checkbox_unchecked.png");
+	
+margin-right: 5px;
+margin-top: 1px;
+	width: 9px;
+	height: 9px;
+	border: 1px solid #fff;
+
+	float: left;
+}
+
+.layan-permohonan-container-inside {
+	width: 100%;
+	border: thin solid #5D5D5D;
+	min-height: 98%;
+	font-family: Helvetica, Arial, Georgia;
+}
+
+
+.layan-permohonan-table {
+	width: 90%;
+	margin-left: 30px;
+}
+
+.layan-permohonan-td-header {
+	width: 200px;
+}
+
+.layan-permohonan-main-header {
+	text-align: center;
+	border-bottom: thin solid #5d5d5d;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.layan-permohonan-main-header-secondary, 
+.layan-permohonan-main-header-tertiary {
+	text-align: center;
+}
+
+.layan-permohonan-print-header-0 {
+     position: absolute;
+     left: 10px;
+}
+
+
+
+.layan-permohonan-print-header-1 {
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.layan-permohonan-print-header-2 {
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.layan-permohonan-print-header-3 {
+	padding-bottom: 0px;
+	font-size: 12px;
+}
+
+.layan-permohonan-print-tertiary {
+	font-weight: bold;
+	padding-bottom: 0px;
+}
+
+.layan-permohonan-print-fourtiary {
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.layan-permohonan-print-fifthiary {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.layan-permohonan-table tr td {
+	font-size: 12px;
+}
+
+.layan-permohonan-table-list {
+	border: 1px solid black;
+	width: 90%;
+	border-collapse: collapse;
+	margin-left: 30px;
+}
+.layan-permohonan-table-list td {
+	padding: 5px;
+	font-size: 12px;
+}
+
+textarea.layan-dokumen-textarea {
+	height: 100%;
+	width: 80%;
+}
+
+.layan-form-note-perpanjangan {
+	border: 1px solid #000;
+	min-height: 100px;
+	width: 90%;
+	margin-left: 30px;
+}
+
+.layan-form-detail-perpanjangan-container {
+	border: 1px solid transparent;
+	width: 90%;
+	margin-left: 30px;
+}
+
+.layan-form-detail-perpanjangan {
+	font-size: 12px;
+	text-align: left;
+}
+
+.layan-permohonan-keterangan {
+    border: 1px solid transparent;
+	width: 100%;
+	margin-left: 40px;
+	
+}
+
+.layan-print-order-stub {
+	display: block;
+}
+
+.layan-permohonan-print-header-img {
+	
+	width: 50px;
+	height: 50px;
+	
+	
+}

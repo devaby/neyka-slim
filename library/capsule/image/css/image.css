@@ -1,0 +1,256 @@
+.normal {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.normal-optionGear {
+	float: right;
+	margin-top: 20px;
+}
+
+.normal table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.normal table td {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 20px;
+}
+
+
+
+.normal-HeadingRight {
+	font-size: 18px;
+	color: #89ab59;
+}
+
+.normal-NewsHeader {
+	font-size: 13px;
+	font-weight: 400;
+	color: #5f8727;
+}
+
+.normal-NewsContent {
+	font-size: 12px;
+}
+
+
+.image-headline_category-categoryImage {
+	overflow: hidden;
+	position: relative;
+}
+
+.image-headline_category-images {
+	z-index: -1;
+}
+
+.image-headline_category-categoryContainer {
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	margin-top: -50px;
+	z-index: 100;
+	position: relative;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+
+.image-headline_category-category {
+	margin-left: auto;
+	margin-right: auto;
+	width: 990px;
+}
+
+.image-headline_category-headlineList {
+	padding-left:20px;
+	width: 100%;
+}
+
+.image-headline_category-headlineList li {
+	list-style-type: none;
+	float: left;
+	margin-right: 38px;
+	font-size: 18px;
+	font-family: "Santa Fe Let Plain";
+}
+
+.client-client-categoryImage {
+	position: relative;
+}
+
+.client-client-images {
+	float: left;
+	margin-right: 55px;
+}
+
+
+.horizontal{
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.horizontal-optionGear {
+	float: right;
+	margin-top: 3px;
+}
+
+.horizontal table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.horizontal table td {
+        margin-right: 8px;
+        border: 1px solid transparent;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 20px;
+}
+.horizontal-daImage{
+         border: 1px solid transparent;
+         margin-right: 8px;
+        
+}
+
+.horizontal-HeadingLeft {
+	font-size: 18px;
+	color: black;
+}
+
+.horizontal-HeadingRight {
+	font-size: 18px;
+	color: #89ab59;
+}
+
+.horizontal-NewsHeader {
+    
+    width: 100%;
+    font-size: 13px;
+}
+
+.horizontal-daImage:hover {
+	-moz-box-shadow: 0 0 3px #000000;
+	-webkit-box-shadow: 0 0 3px #000000;
+	box-shadow: 0 0 3px #000000;
+	cursor: pointer;
+}
+
+.horizontal-NewsContent {
+	font-size: 12px;
+}
+
+.image-gallery-images {
+	
+	margin-right:20px;
+	margin-bottom:20px;
+}
+
+
+.image-gallery-fullImageContainer {
+	background-color: #ffffff;
+	border: 1px solid #cecece;
+	padding: 10px;
+	-moz-box-shadow: 0 0 5px #6c6c6c;
+	-webkit-box-shadow: 0 0 5px #6c6c6c;
+	box-shadow: 0 0 5px #6c6c6c;
+	z-index: 10001;
+}
+
+
+.image-gallery-images:hover {
+	-moz-box-shadow: 0 0 5px #6c6c6c;
+	-webkit-box-shadow: 0 0 5px #6c6c6c;
+	box-shadow: 0 0 5px #6c6c6c;
+	cursor:pointer;
+}
+
+.totalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    z-index: 10000;
+}
+
+.image-gallery-categoryContainer {
+	float: right;
+ 
+}
+
+.image-gallery-headlineList {
+	list-style: none;
+    margin-top: -55px;
+    padding: 0;
+    margin-right: -35px;
+}
+
+.image-gallery-headlineList  li {
+    float: right;
+    margin-right: 15px;
+    font-family: "HelveticaNeueLight";
+    color: #0D3A52;
+}
+
+.image-gallery-headlineList li a:hover {
+    color: #90A4AD;    
+}
+
+.image-gallery-fullImageContainerDel {
+    margin-left:2px;
+	margin-top:-30px;
+    width: 30px;
+    height: 30px;
+ 	position: absolute;
+}
+
+.image-roll-categoryImage{
+	width: 100%;
+	
+}
+
+.image-roll-categoryContainer {
+	z-index: 100;
+	position: relative;
+	width: 100px;
+	margin-top: -20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.image-roll-categoryContainer ul {
+	padding: 0;
+	margin: 0;
+}
+
+.image-roll-images {
+	width: 100%;
+}
+
+.image-roll-headlineList li {
+	list-style-type: none;
+	float: left;
+	margin-right: 5px;
+	font-size: 10px;
+	border: 1px solid #939393;
+	width: 8px;
+	height: 8px;
+	display: block;
+	background-color: #ffffff;
+
+}
+
+.image-single-images:hover {
+	cursor: pointer;
+	
+}

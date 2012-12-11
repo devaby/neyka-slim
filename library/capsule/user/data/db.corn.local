@@ -1,0 +1,19 @@
+; Comment: this is the forward zone file
+
+; IMPORTANT every FQDN has a trailing dot '.'
+
+$TTL 1D
+;Comment: FORMAT
+;Comment: @      IN SOA  FQDN email (user.domain.tld) (
+
+@       IN SOA  ns1.asacreative.local. admin.corn.local. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+                   IN NS   ns1.asacreative.local.
+www                IN A    192.168.0.114
+ftp                IN A    192.168.0.114
+accounting         IN A    192.168.0.114
+staffsite          IN A    192.168.0.114

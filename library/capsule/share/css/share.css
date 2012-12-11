@@ -1,0 +1,69 @@
+.normal-sharefacebook,
+.normal-sharelinkedin {
+	float: right;
+}
+
+.normal-sharetwitter {
+	float: right;
+	margin-left: 13px;
+}
+
+.share-optionGear {
+	float: right;
+	margin-top: -10px;
+}
+
+.icon-sharefacebook {
+	border-color: #d7d7d7;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	background-color: white;
+	float: right;
+	margin-top: 2px;
+	width: 46px;
+	height: 60px;
+	margin-right: 5px;
+}
+
+.icon-sharegoogleplus {
+	border-color: #d7d7d7;
+	border-width: 1px;
+	border-style: solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	padding-right: 12px;
+	background-color: white;
+	float: right;
+	margin-top: 2px;
+	width: 46px;
+	height: 60px;
+	margin-right: 5px;
+	overflow: hidden;
+}
+
+
+.icon-sharetwitter {
+	border-color: #d7d7d7;
+	border-width: 1px;
+	border-style: solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 6px;
+	padding-right: 14px;
+	background-color: white;
+	float: right;
+	margin-top: 2px;
+	width: 46px;
+	height: 60px;
+	margin-right: 5px;
+	overflow: hidden;
+}
+
+.share-smallIcon-lastLi {
+	color: white;
+	font-size: 10px;
+}
+
+EngschriftDIND

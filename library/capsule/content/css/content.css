@@ -1,0 +1,941 @@
+
+.boxContent{
+
+   
+}
+
+table{
+    
+    width:150px;
+}
+td.dor{
+    font-size:15px;
+    color :#454545;
+    
+}
+
+td.dir{
+       line-height: 25px;
+       padding-top: 5px;
+       padding-bottom: 8px;
+       font-size:15px;
+       color :#454545;
+    
+}
+
+/*
+-----------------------------------------------
+
+This is the CSS for content display in other pages
+
+-----------------------------------------------
+*/
+.single {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.single-HeadingLeft {
+	text-shadow: 0px 1px white;
+	font-size: 16px;
+	color: #2c2c2c;
+}
+
+.single-HeadingRight {
+	text-shadow: 0px 1px white;
+	font-size: 16px;
+	color: #2c2c2c;
+}
+
+.single-NewsHeader {
+	font-size: 13px;
+	font-weight: 600;
+	color: #5f8727;
+}
+
+.single-optionGear {
+	float: right;
+	margin-top: 3px;
+}
+
+hr.separator-line {
+	border-bottom-color: gainsboro;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	border-bottom: 1px solid gainsboro;
+}
+
+hr.separator-line-event {
+	border-bottom-color: gainsboro;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	border-bottom: 1px solid #EAD19A;
+}
+
+
+/*
+-----------------------------------------------
+
+This is the CSS for content display in other pages
+
+-----------------------------------------------
+*/
+.singleText {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.singleText-HeadingLeft {
+	text-shadow: 0px 1px white;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+
+.singleText-HeadingRight {
+	text-shadow: 0px 1px white;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+
+.singleText-NewsHeader {
+	text-shadow: 0px 1px white;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+
+.singleText-optionGear {
+	float: right;
+	margin-top: 3px;
+}
+
+
+/*
+-----------------------------------------------
+
+This is the CSS for content display in other pages
+
+-----------------------------------------------
+*/
+.image {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.image-HeadingLeft {
+	font-size: 18px;
+	color: black;
+}
+
+.image-HeadingRight {
+	font-size: 18px;
+	color: #89ab59;
+}
+
+.image-NewsHeader {
+	font-size: 13px;
+	font-weight: 600;
+	color: #5f8727;
+}
+
+.image-optionGear {
+	float: right;
+	margin-top: 3px;
+}
+
+.image-left {
+          
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+.image-boxImage{
+    width: 38%;
+	height: 100%;
+	padding-top: 8px;
+	vertical-align: top;
+}
+
+.image-right {
+  
+	border-collapse: collapse;
+	margin-left: 0px;
+	width: 100%;
+	height: 80%;
+}
+
+.image-right td {
+	width: 80%;
+}
+
+.image-right td {
+       
+	padding-top: 3px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 20px;
+}
+
+.image-NewsHeader {
+	font-size: 12px;
+	font-weight: 600;
+	color: #5f8727;
+}
+
+.image-NewsContent {   
+     font-size: 12px;
+}
+
+.image-noImage {
+	z-index: -100;
+	width: 85%;
+	height: 70px;
+	background-color: #e4e4e4;
+	border: 1px solid #a7a7a7;
+}
+
+
+
+/*
+-----------------------------------------------
+
+This is the CSS for normal view
+
+-----------------------------------------------
+*/
+
+.normal {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.normal-optionGear {
+	float: right;
+	margin-top: 3px;
+}
+
+.normal table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.normal table td {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 20px;
+}
+
+.normal-HeadingLeft {
+	font-size: 18px;
+	color: #454545;
+}
+
+.normal-HeadingRight {
+	font-size: 18px;
+	color: #142c41;
+}
+
+.normal-NewsHeader {
+	font-size: 17px !important;
+	font-weight: 400;
+	color: #333;
+}
+
+.normal-NewsContent {
+	font-size: 12px;
+}
+
+
+/*
+-----------------------------------------------
+
+This is the CSS for lists view
+
+-----------------------------------------------
+*/
+
+.lists {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.lists-optionGear {
+	float: right;
+	margin-top: 3px;
+}
+
+.lists table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.lists table td {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 20px;
+}
+
+.lists-HeadingLeft {
+	color: #737373;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lists-HeadingRight {
+	color: #737373;
+    text-transform: uppercase;
+    font-size: 14px;
+     font-weight: bold;
+	
+}
+
+.lists-NewsHeader {
+	font-size: 18px !important;
+	font-weight: 400;
+	color: #5f8727;
+}
+
+.lists-NewsContent {
+	font-size: 12px;
+}
+
+.lists-contentImage {
+	margin-top: -2px;
+}
+
+
+/*
+-----------------------------------------------
+
+This is the CSS for event view
+
+-----------------------------------------------
+*/
+
+.event {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.event-optionGear {
+	float: right;
+	margin-top: 3px;
+}
+
+.event table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.event table td {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 20px;
+}
+
+.event-HeadingLeft {
+	font-size: 18px;
+	color: black;
+}
+
+.event-HeadingRight {
+       
+	font-size: 18px;
+	color: #142c41;
+}
+
+.event-NewsHeader {
+    margin-top: -3px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #142c41;
+}
+.event-NewsHeader a{
+        margin-top: -3px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #142c41;
+}
+.event-NewsContent {
+	font-size: 12px;
+}
+
+.event-contentImage {
+	margin-top: 3px;
+}
+
+/*
+-----------------------------------------------
+
+This is the CSS for content display imageBox
+
+-----------------------------------------------
+*/
+.imageBox {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	margin-bottom: 15px;
+}
+
+.imageBox-optionGear {
+	float: right;
+	margin-top: 3px;
+}
+
+.imageBox-optionSearch{
+    float: right;
+}
+
+
+.imageBox table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.imageBox-boxImageContent{
+	margin-top: 15px;
+	border: 1px solid #a9a6a6;
+}
+
+.imageBox table td {
+	padding-top: 2px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 0px;
+	line-height: 20px;
+}
+
+.imageBox-HeadingLeft {
+	font-size: 18px;
+	color: black;
+}
+
+.imageBox-HeadingRight {
+	font-size: 18px;
+	color: #89ab59;
+}
+
+.imageBox-NewsHeader {
+    background-color: #080808;
+    font-size: 14px;
+	font-weight: 400;
+	color:white;
+	height: 30px;
+	width: 414px;
+	margin-top: -45px;
+	padding-top: 15px;
+	padding-left: 10px;
+	z-index: 1;
+	position: absolute;
+	opacity: 0.87;
+}
+
+.imageBox-NewsHeader a {
+	color:white;
+}
+
+.imageBox-imageUnder {
+	z-index: -100;
+}
+
+.imageBox-NewsHeaderContent {
+	font-size: 12px;
+}
+
+.imageBox-NewsContent {
+	font-size: 12px;
+}
+
+.imageBox-RightFloat {
+	float: right;
+}
+
+.imageBox-boxImageContentImg{
+	height: 200px;
+	width: 403px;
+}
+
+.imageBox-counterLi {
+	border-color: #bfbfbf;
+	border-width: 1px;
+	border-style: solid;
+	background-color: white;
+	list-style-type: none;
+	float: left;
+	display: block;
+	margin-right: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	cursor: pointer;
+	font-size: 11px;
+}
+
+.imageBox-counterLi:hover {
+	color: white;
+	background-color: #232323;
+}
+
+.imageBox-counterLiActive {
+	color: white;
+	background-color: #232323;
+}
+
+.imageBox-counterUl {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+/*
+-----------------------------------------------
+
+This is the CSS for contentTag view
+
+-----------------------------------------------
+*/
+
+.contentTag {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.contentTag-optionGear {
+	float: right;
+	margin-top: 3px;
+}
+
+.contentTag table {
+        margin-top: 20px;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.contentTag table td {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 10px;
+}
+
+.contentTag-HeadingLeft {
+	margin-top: 20px;
+        font-size: 14px;
+	color: black;
+}
+
+.contentTag-HeadingRight {
+      
+        margin-top: 20px;
+	font-size: 14px;
+	color: black;
+}
+
+.contentTag-NewsHeader {
+	font-size: 12px;
+	font-weight: 600;
+	color: #5f8727;
+}
+
+.contentTag-NewsContent {
+	font-size: 12px;
+}
+
+/*
+-----------------------------------------------
+
+This is the CSS for content display verticon
+
+-----------------------------------------------
+*/
+.verticon {
+   
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.verticon-optionGear {
+	float: right;
+	margin-top: 3px;
+}
+
+.verticon-optionSearch{
+    float: right;
+}
+
+
+.verticon table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.verticon-boxImageContent{
+	margin-top: 0px;
+	border: 1px solid #e7e7e7;
+}
+
+.verticon table td {
+	padding-top: 2px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 0px;
+	line-height: 20px;
+}
+
+.verticon-HeadingLeft {
+	font-size: 18px;
+	color: black;
+}
+
+.verticon-HeadingRight {
+	font-size: 18px;
+	color: #89ab59;
+}
+
+.verticon-NewsHeader {
+  	background-color: #ffffff;
+    font-size: 14px;
+	font-weight: 400;
+	color:white;
+	height: 30px;
+	width: 666px;
+	margin-top: -45px;
+	padding-top: 15px;
+	padding-left: 10px;
+	z-index: 1;
+	position: absolute;
+	opacity: 0.87;
+}
+
+.verticon-NewsHeader a {
+	color: #363636;
+}
+
+.verticon-imageUnder {
+	z-index: -100;
+}
+
+.verticon-noImage {
+	z-index: -100;
+	width: 100%;
+	height: 291px;
+	background-color: #e4e4e4;
+}
+
+.verticon-NewsHeaderContent {
+	font-size: 12px;
+}
+
+.verticon-NewsContent {
+	font-size: 12px;
+}
+
+.verticon-RightFloat {
+	float: right;
+}
+
+.verticon-boxImageContentImg{
+	height: 200px;
+	width: 395px;
+}
+
+.verticon-counterLi {
+    margin-bottom: 10px;
+	border-color: #bfbfbf;
+	border-width: 1px;
+	border-style: solid;
+	background-color: white;
+	list-style-type: none;
+	float: left;
+	position: relative;
+    display: block;
+	margin-right: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	cursor: pointer;
+	font-size: 11px;
+}
+
+.verticon-counterLi:hover {
+	color: white;
+	background-color: #232323;
+}
+
+.verticon-counterLiActive {
+	color: white;
+	background-color: #232323;
+}
+
+.verticon-counterUl {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.verticon-left {
+    border-top:1px solid #e4e4e4;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+.verticon-boxImage {
+    padding-top: 10px;
+    width: 38%;
+	height: 100%;
+}
+
+.verticon-boxEmptyImage {
+	padding-top: 10px;
+	width: 38%;
+	height: 100px;
+}
+
+.verticon-boxNoImage {
+    padding-top: 10px;
+    width: 130px;
+	height: 80px;
+	background-color: #e5e5e5;
+	border: 1px solid #e7e7e7;
+}
+
+.verticon-right {
+	border-collapse: collapse;
+	margin-left: 0px;
+	margin-top: 5px;
+	width: 240px;
+	height: 100%;
+}
+.verticon-NewsHeader1 {
+	font-size: 12px;
+	font-weight: 600;
+	color: #5f8727;
+}
+
+.verticon-NewsContent1 {
+    
+     font-size: 12px;
+}
+
+.verticon-right td {
+	 padding-top: 10px;
+         width: 90%;
+}
+
+.verticon-right td {
+       
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 20px;
+}
+
+
+
+/*
+-----------------------------------------------
+
+This is the CSS for content display imageVerti
+
+-----------------------------------------------
+*/
+.imageVerti {
+   
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	margin-bottom: 10px;
+}
+
+.imageVerti-optionGear {
+	float: right;
+	margin-top: 3px;
+}
+
+.imageVerti-optionSearch{
+    float: right;
+}
+
+
+.imageVerti table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.imageVerti-boxImageContent{
+	margin-top: 15px;
+	border: 1px solid #e7e7e7;
+}
+
+.imageVerti table td {
+	padding-top: 2px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 0px;
+	line-height: 20px;
+}
+
+.imageVerti-HeadingLeft {
+	font-size: 18px;
+	color: black;
+}
+
+.imageVerti-HeadingRight {
+	font-size: 18px;
+	color: #89ab59;
+}
+
+.imageVerti-NewsHeader {
+  
+    font-size: 14px;
+	font-weight: 400;
+	color:white;
+	height: 30px;
+	width: 400px;
+	margin-top: -45px;
+	padding-top: 15px;
+	padding-left: 10px;
+	z-index: 1;
+	position: absolute;
+	opacity: 0.87;
+}
+
+.imageVerti-NewsHeader a {
+	color:white;
+}
+
+.imageVerti-imageUnder {
+	z-index: -100;
+}
+
+.imageVerti-noImage {
+	z-index: -100;
+	width: 100%;
+	height: 203px;
+	background-color: #e4e4e4;
+}
+
+.imageVerti-NewsHeaderContent {
+	font-size: 12px;
+}
+
+.imageVerti-NewsContent {
+	font-size: 12px;
+}
+
+.imageVerti-RightFloat {
+	float: right;
+}
+
+.imageVerti-boxImageContentImg{
+	height: 200px;
+	width: 395px;
+}
+
+.imageVerti-counterLi {
+    margin-bottom: 10px;
+	border-color: #bfbfbf;
+	border-width: 1px;
+	border-style: solid;
+	background-color: white;
+	list-style-type: none;
+	float: left;
+	position: relative;
+    display: block;
+	margin-right: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	cursor: pointer;
+	font-size: 11px;
+}
+
+.imageVerti-counterLi:hover {
+	color: white;
+	background-color: #232323;
+}
+
+.imageVerti-counterLiActive {
+	color: white;
+	background-color: #232323;
+}
+
+.imageVerti-counterUl {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.imageVerti-left {
+    border-top:1px solid #e4e4e4;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+.imageVerti-boxImage {
+    padding-top: 10px;
+    width: 38%;
+	height: 100%;
+}
+
+.imageVerti-boxEmptyImage {
+	padding-top: 10px;
+	width: 38%;
+	height: 100px;
+}
+
+.imageVerti-boxNoImage {
+    padding-top: 10px;
+    width: 130px;
+	height: 80px;
+	background-color: #e5e5e5;
+	border: 1px solid #e7e7e7;
+}
+
+.imageVerti-right {
+	border-collapse: collapse;
+	margin-left: 0px;
+	margin-top: 5px;
+	width: 240px;
+	height: 100%;
+}
+.imageVerti-NewsHeader1 {
+	font-size: 12px;
+	font-weight: 600;
+	color: #5f8727;
+}
+
+.imageVerti-NewsContent1 {
+    
+     font-size: 12px;
+}
+
+.imageVerti-right td {
+	 padding-top: 10px;
+         width: 90%;
+}
+
+.imageVerti-right td {
+       
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 20px;
+}
+

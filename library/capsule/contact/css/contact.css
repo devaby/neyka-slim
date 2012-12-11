@@ -1,0 +1,50 @@
+.contact-normal-container {
+	padding: 5px;
+	background-color: #e6e6e6;
+	border-right: 1px dashed #737373;
+	border-left: 1px dashed #737373;
+	border-bottom: 1px dashed #737373;
+}
+
+.contact-normal-table {
+	width: 100%;
+}
+
+.contact-normal-input,
+.contact-normal-textarea {
+	width: 95%;
+	padding: 5px;
+	margin-bottom: 9px;
+	border: 1px solid #c1c1c1;
+	outline: none;
+}
+
+.contact-optionGear {
+	float: right;
+	padding-right: 7px;
+}
+
+.contact-normal-heading {
+	color: white;
+	padding-left: 10px;
+	font-size: 13px;
+}
+
+.contact-normal-textheader {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	height: 20px;
+	background-color: #2188B5;
+}
+
+.contact-normal-notificationContainer {
+	width: 200px;
+	height: 100px;
+	background-color: #2c2c2c;
+	color: #ffffff;
+}
+
+.contact-normal-falseinput {
+	border: 1px solid #f71c1c;
+}

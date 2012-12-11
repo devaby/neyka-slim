@@ -1,0 +1,43 @@
+.normal {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+}
+
+.normal-optionGear {
+	float: right;
+	margin-top: 3px;
+}
+
+.normal table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.normal table td {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 20px;
+}
+
+
+.normal-HeadingRight {
+	font-size: 18px;
+	color: #89ab59;
+}
+
+.normal-NewsHeader {
+	font-size: 13px;
+	font-weight: 600;
+	color: #5f8727;
+}
+
+.normal-NewsContent {
+	font-size: 12px;
+}
+
+.audio-table-td {
+	border: 1px none #8c8c8c;
+	background-color: #5cbd20;
+	float: left;
+}

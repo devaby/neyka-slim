@@ -1,0 +1,88 @@
+input[type="text"].search-normal-input {
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+	background-image: -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -ms-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	outline: none;
+	width: 220px;
+	height: 10px;
+	border: 1px solid #c8c8c8;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	color: #cecece;
+	font-style: italic;
+	font-family: EngschriftDIND,"Arial Narrow","Trebuchet MS",Arial;
+    font-size: 11px;
+    margin: 0;
+}
+
+input[type="text"].search-normal-input-active {
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+	background-image: -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -ms-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	outline: none;
+	width: 220px;
+	height: 12px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	color: black;
+	font-style: normal;
+	margin: 0;
+}
+
+.search-normal-input:hover {
+	-moz-box-shadow: 0 0 0px #bababa;
+	-webkit-box-shadow: 0 0 0px #bababa;
+	box-shadow: 0 0 0px #bababa;
+}
+
+.search-normal-container {
+	float: right;
+	position: relative;
+	margin-top:13px;
+	z-index: 100;
+}
+
+.search-normal-loader {
+	border-top: 1px solid #dedede;
+	padding: 10px;
+	text-align: center;
+	color: #b8b8b8;
+}
+
+.search-normal-result {
+	width: 215px;
+	top: 0;
+	right: 0;
+	position: absolute;
+	background-color: #ffffff;
+	z-index: 9999;
+	border: 1px solid #d5d5d5;
+	-moz-box-shadow: 0 0 1px #e1e1e1;
+	-webkit-box-shadow: 0 0 1px #e1e1e1;
+	box-shadow: 0 0 1px #e1e1e1;
+}
+
+.search-normal-content {
+	padding: 5px;
+	width: 205px;
+	max-height: 500px;
+	line-height: 18px;
+	font-size: 11px;
+	overflow-y: hidden;
+}
+
+.search-search-table {
+	width: 100%;
+}

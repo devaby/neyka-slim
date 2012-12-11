@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Your Message Subject or Title</title>
+	<style type="text/css">
+		/* Based on The MailChimp Reset INLINE: Yes. */  
+		/* Client-specific Styles */
+		#outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+		body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif;} 
+		/* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/ 
+		.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */  
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+		/* Forces Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */ 
+		#backgroundTable {margin:0 auto; padding:0; width:648px !important; background-color:#b9cad6; line-height: 100% !important;}
+		/* End reset */
+
+		/* Some sensible defaults for images
+		Bring inline: Yes. */
+		img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;} 
+		a img {border:none;} 
+		.image_fix {display:block;}
+
+		/* Yahoo paragraph fix
+		Bring inline: Yes. */
+		p {margin: 0em 0; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #8b8b8b; line-height:18px;}
+
+		/* Hotmail header color reset
+		Bring inline: Yes. */
+		h1, h2, h3, h4, h5, h6 {color: #8b8b8b !important; margin:0;  -webkit-margin-before: 0em; -webkit-margin-after: 0em;}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: blue !important;}
+
+		h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+		color: red !important; /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+		}
+
+		h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+		color: purple !important; /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+		}
+
+		/* Outlook 07, 10 Padding issue fix
+		Bring inline: No.*/
+		table td {border-collapse: collapse;}
+
+		/* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email and make sure to bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+		Bring inline: Yes. */
+		a {color: #666;}
+
+		/* Some Styles */
+		
+		h1 { font-size:18px;}
+		h3 {font-size:16px;}
+
+
+		/***************************************************
+		****************************************************
+		MOBILE TARGETING
+		****************************************************
+		***************************************************/
+		@media only screen and (max-device-width: 480px) {
+			/* Part one of controlling phone number linking for mobile. */
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: blue; /* or whatever your want */
+						pointer-events: none;
+						cursor: default;
+					}
+
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: orange !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+
+		}
+
+		/* More Specific Targeting */
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		/* You guessed it, ipad (tablets, smaller screens, etc) */
+			/* repeating for the ipad */
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: blue; /* or whatever your want */
+						pointer-events: none;
+						cursor: default;
+					}
+
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: orange !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+		/* Put your iPhone 4g styles in here */ 
+		}
+
+		/* Android targeting */
+		@media only screen and (-webkit-device-pixel-ratio:.75){
+		/* Put CSS for low density (ldpi) Android layouts in here */
+		}
+		@media only screen and (-webkit-device-pixel-ratio:1){
+		/* Put CSS for medium density (mdpi) Android layouts in here */
+		}
+		@media only screen and (-webkit-device-pixel-ratio:1.5){
+		/* Put CSS for high density (hdpi) Android layouts in here */
+		}
+		/* end Android targeting */
+
+	</style>
+
+	<!-- Targeting Windows Mobile -->
+	<!--[if IEMobile 7]>
+	<style type="text/css">
+	
+	</style>
+	<![endif]-->   
+
+	<!-- ***********************************************
+	****************************************************
+	END MOBILE TARGETING
+	****************************************************
+	************************************************ -->
+
+	<!--[if gte mso 9]>
+		<style>
+		/* Target Outlook 2007 and 2010 */
+		</style>
+	<![endif]-->
+</head>
+<body bgcolor="#b9cad6" style="background-color:#b9cad6; color:#8b8b8b;">
+<!-- Wrapper/Container Table: Use a wrapper table to control the width and the background color consistently of your email. Use this approach instead of setting attributes on the body tag. -->
+<!-- Start Background Table -->
+<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" align="center">
+	<tr>
+    	<!-- Party Begins -->
+		<td valign="top"> 
+                
+        <!-- 20px Vertical Spacing -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td height="20"></td>
+            </tr>
+        </table>
+        <!-- 20px Vertical Spacing -->
+        
+        <!-- Header Masthead -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+            	<td>
+                    <table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+                    	<tr>
+                            <td width="19" align="left"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/header-top_left-corner.png" alt="Your alt text" width="19" height="26" border="0" /></td>
+                            <td width="610">
+                                <table width="610" cellpadding="0" cellspacing="0" border="0" align="left"  style="background:#fdfdfd;">
+                                    <!-- View it in your browser Link -->
+                                    <td height="26" align="right" valign="middle"><p style="font-size:10px; color:#aaa;">Email not displaying correctly?  <a href="Full Path to Mio" style="color:#888; text-decoration:none;" target ="_blank">View it in your browser</a>.</p></td>
+                                </table>
+                            </td>
+                            <td width="19" align="right"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/header-top_right-corner.png" alt="Your alt text" width="19" height="26" border="0" /></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+            	<td height="1" valign="bottom" style="background:#fdfdfd;"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/header-top_divider.png" alt="Your alt text" width="648" height="1" border="0" /></td>
+            </tr>
+        </table>
+        <!-- Header Masthead -->
+        
+        <!-- Header Main -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center" style="background:#fff;">
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <tr>
+            	<td>
+                    <!-- Logo -->
+                    <table width="324" cellpadding="0" cellspacing="0" border="0" align="left">
+                    	<td width="20" align="left"></td>
+                        <!-- Here goes your logo icon -->
+                        <td width="21" align="left"><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/header-logo_icon.png" alt="Your alt text" width="21" height="31" border="0" /></a></td>
+                        <td width="3" align="left"></td>
+                        <!-- And here goes your logo text -->
+                        <td width="183" align="left"><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/header-logo_logo.png" alt="Your alt text" width="183" height="31" border="0" /></a></td>
+                        <td width="97" align="left"></td>
+                    </table>
+                    <!-- Logo -->
+                    <!-- Date -->
+                    <table width="324" cellpadding="0" cellspacing="0" border="0" align="right">
+                    	<td width="207" align="right"></td>
+                        <!-- Here goes the Month and Year -->
+                        <td width="97" align="right"><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/header-date_april.gif" alt="Your alt text" width="97" height="31" border="0" /></a></td>
+                    	<td width="20" align="right"></td>
+                    </table>
+                    <!-- Date -->
+                </td>
+            </tr>
+            <tr>
+              <td height="20"></td>
+            </tr>
+        </table>
+        <!-- Header Main -->
+        
+        <!-- Featured Chief -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center" style="background:#fff;">
+            <tr>
+            	<td>
+                <!-- Picture - Loupe -->
+                    <table width="325" cellpadding="0" cellspacing="0" border="0" align="left">
+                    	<tr>
+                            <!-- Here goes your main featured picture - In that case the Loupe -->
+                            <td width="426" align="left"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/featured-chief_loupe.png" alt="Your alt text" width="325" height="261" border="0" /></td>
+                        </tr>
+                    </table>
+                <!-- Picture - Loupe -->
+                <!-- Text and Button -->
+                    <table width="323" cellpadding="0" cellspacing="0" border="0" align="right">
+                    	<tr>
+                            <td>
+                                <table width="323" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <!-- Here goes your main featured text -->
+                                        <td width="323"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/featured-chief_text.png" alt="Your alt text" width="323" height="171" border="0" /></td>
+                                    </tr>
+                                    <tr>
+                                        <!-- Here goes your main featured button -->
+                                        <td width="323"><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/featured-chief_button.png" alt="Your alt text" width="323" height="90" border="0" /></a></td>
+                                    </tr>
+                                </table>
+                             </td>
+                        </tr>
+                    </table>
+                <!-- Text and Button -->
+                </td>
+            </tr>
+        </table>
+        <!-- Featured Chief -->
+        
+        <!-- Main Aticle -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center" style="background:#fff;">
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <tr>
+            	<td>
+                    <table width="203" cellpadding="0" cellspacing="0" border="0" align="left">
+                    	<tr>
+                        	<td width="20" align="left"></td>
+                            <!-- This is the Picture of the Main Article -->
+                            <td width="183" align="left"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/article-main_picture-layout2.jpg" alt="Your alt text" width="183" height="163" border="0" /></td>
+                        </tr>
+                    </table>
+                    <table width="445" cellpadding="0" cellspacing="0" border="0" align="left">
+                    	<tr>
+                        	<td width="19"></td>
+                            <td>
+                               	<table width="406" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                    	<td height="10"></td>
+                                    </tr>
+                                   	<tr>
+                                    	<!-- The Big Papa, this is the H1. He is the title of the Main Article -->
+                                       	<td><h1>Red Bull Stratos</h1></td>
+                                    </tr>
+                                    <tr>
+                                    	<td height="15"></td>
+                                    </tr>
+                                    <tr>
+                                    	<!-- This is the Content of the Main Article  -->
+                                    	<td><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, nisl vel sagittis rhoncus, sapien massa bibendum purus, sit amet suscipit ipsum sapien mi, at laoreet lacus. Maecenas nisi eros, hendrerit ac blandit sed, euismod et augue. Nullam vel viverra facilisis. </p></td>
+                                    </tr>
+                                    <tr>
+                                    	<td height="20"></td>
+                                    </tr>
+                                    <tr>
+                                    	<!-- This is the Read More Button -->
+                                    	<td align="right"><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/read-more-button.png" alt="Your alt text" width="90" height="32" border="0" /></a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        	<td width="20"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+              <td height="20"></td>
+            </tr>
+        </table>
+        <!-- Main Aticle -->
+
+        <!-- Content Divider -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td height="1"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/content-divider.gif" alt="Your alt text" width="648" height="1" border="0" /></td>
+            </tr>
+        </table>
+        <!-- Content Divider -->
+
+        <!-- Articles Bottom in Horizontal -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center" style="background:#fff;">
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <!-- Articles Bottom -->
+            <tr>
+            	<td>
+                    <table width="648" cellpadding="0" cellspacing="0" border="0" align="left">
+                    	<tr>
+                            <td width="20" align="left"></td>
+                            <!-- Article 1 -->
+                            <td width="189" align="left">
+                                	<table width="189" cellpadding="0" cellspacing="0" border="0">
+                                    	<tr>
+                                        	<!-- This is the Picture of the article bottom 1 -->
+                                            <td><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/article-bottom1_picture-layout2.jpg" alt="Your alt text" width="189" height="87" border="0" /></a></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20"></td>
+                                        </tr>
+                                        <tr>
+                                        	<!-- Here is the Title -->
+                                        	<td><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><h3>Morning Mr Magpie</h3></a></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="12"></td>
+                                        </tr>
+                                        <tr>
+                                        	<!-- Here the Content -->
+                                        	<td><p>Consectetur adipiscing elit. Morbi dictum, nisl vel sit amet sagittis rhoncus, sapien massa bibendum purus, sit amet…</p></td>
+                                        </tr>
+                                    </table>
+                            </td>
+                            <!-- Article 1 -->
+                            <td width="20" align="left"></td>
+                            <!-- Article 2 -->
+                            <td width="189" align="left">
+                                	<table width="189" cellpadding="0" cellspacing="0" border="0">
+                                    	<tr>
+                                        	<!-- This is the Picture of the article bottom 2 -->
+                                        	<td><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/article-bottom2_picture-layout2.jpg" alt="Your alt text" width="189" height="87" border="0" /></a></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20"></td>
+                                        </tr>
+                                        <tr>
+                                        	<!-- Here is the Title -->
+                                        	<td><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><h3>Lotus Flower</h3></a></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="12"></td>
+                                        </tr>
+                                        <tr>
+                                        	<!-- Here is the Title -->
+                                        	<td><p>Sit amet, consectetur adipiscing elit. Morbi dictum, nisl vel sagittis rhoncus, sapien massa bibendum purus, sit amet…</p></td>
+                                        </tr>
+                                    </table>
+                            </td>
+                            <!-- Article 2 -->
+                            <td width="20" align="left"></td>
+                            <!-- Article 3 -->
+                            <td width="189" align="left">
+                                	<table width="189" cellpadding="0" cellspacing="0" border="0">
+                                    	<tr>
+                                        	<!-- This is the Picture of the article bottom 2 -->
+                                        	<td><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/article-bottom3_picture-layout2.jpg" alt="Your alt text" width="189" height="87" border="0" /></a></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="20"></td>
+                                        </tr>
+                                        <tr>
+                                        	<!-- Hey, i'm the title -->
+                                        	<td><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><h3>Paranoid Android</h3></a></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="12"></td>
+                                        </tr>
+                                        <tr>
+                                        	<!-- I'm the content -->
+                                        	<td><p>Ipsum dolor sit amet, consectetur adipiscing elit. Morbi dictum, nisl vel sagittis rhoncus, sapien bibendum purus, sit amet…</p></td>
+                                        </tr>
+                                    </table>
+                            </td>
+                            <!-- Article 3 -->
+                            <td width="20" align="left"></td>
+                        </tr>
+                    </table>
+            	</td>
+            </tr>
+            <!-- Articles Bottom -->
+            <tr>
+              <td height="5"></td>
+            </tr>
+        </table>
+        <!-- Articles Bottom in Horizontal -->
+        
+        <!-- Rounded Bottom -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td height="20"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/rounded-bottom_bg.png" alt="Your alt text" width="648" height="20" border="0" /></td>
+            </tr>
+        </table>
+        <!-- Rounded Bottom -->
+        
+        <!-- 20px Vertical Spacing -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td height="20"></td>
+            </tr>
+        </table>
+        <!-- 20px Vertical Spacing -->
+        
+        <!-- Footer -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td height="19"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/footer-top_bg.png" alt="Your alt text" width="648" height="19" border="0" /></td>
+            </tr>
+            <!-- Info and Social -->
+            <tr>
+            	<td>
+                    <table width="426" cellpadding="0" cellspacing="0" border="0" align="left" style="background:#f7f7f7;">
+                    	<tr>
+                        	<td width="20"></td>
+                            <!-- Here goes you logo icon… again -->
+                        	<td width="29"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/footer-logo_icon.png" alt="Your alt text" width="29" height="45" border="0" /></td>
+                            <td width="10"></td>
+                            <!-- You can put all the info about you company here -->
+                            <td width="367"><p style="font-size:11px; line-height:15px;">PREMIUMMAIL<br />Sir Matt Busby Way, Old Trafford, Manchester, M16 0RA<br />Help & Support Center: 0000 000 000</p></td>
+                        </tr>
+                    </table>
+                    <table width="222" cellpadding="0" cellspacing="0" border="0" align="right" style="background:#f7f7f7;">
+                    	<tr>
+                        	<td width="87" height="45" align="left"></td>
+                            <!-- Here goes the link to your Facebook account -->
+                        	<td width="32"><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/footer-social_facebook.png" alt="Your alt text" width="32" height="32" border="0" /></a></td>
+                        	<td width="10" align="right"></td>
+                            <!-- Here goes the link to your Twitter account -->
+                        	<td width="32"><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/footer-social_twitter.png" alt="Your alt text" width="32" height="32" border="0" /></a></td>
+                        	<td width="10" align="right"></td>
+                            <!-- Here goes the link to your RSS -->
+                        	<td width="32"><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/footer-social_rss.png" alt="Your alt text" width="32" height="32" border="0" /></a></td>
+                        	<td width="20" height="45" align="right"></td>
+                        </tr>
+                    </table>
+            	</td>
+            </tr>
+            <!-- Info and Social -->
+            <tr>
+              <td height="19"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/footer-divider_rounded-between.png" alt="Your alt text" width="648" height="32" border="0" /></td>
+            </tr>
+            <!-- Unsubscribe -->
+            <tr>
+            	<td>
+                    <table width="648" cellpadding="0" cellspacing="0" border="0" align="left" style="background:#f2f2f2;">
+                    	<tr>
+                        	<td width="20"></td>
+                            <!-- Atention! Here goes your UNSUBSCRIBE link -->
+                            <td width="620"><p style="font-size:10px; line-height:12px;">You have received this email because you have subscribed to Premiummail as some@example.com<br />If you have no more interest in receiving this, please <a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank">unsubscribe</a>.</p></td>
+                        </tr>
+                    </table>
+            	</td>
+            </tr>
+            <!-- Unsubscribe -->
+            <tr>
+              <td height="20"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-1/images/footer-bottom_bg.png" alt="Your alt text" width="648" height="20" border="0" /></td>
+            </tr>
+        </table>
+        <!-- Footer -->
+            
+        <!-- 20px Vertical Spacing -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td height="20"></td>
+            </tr>
+        </table>
+        <!-- 20px Vertical Spacing -->
+            
+		</td>
+    	<!-- Party's Over -->
+	</tr>
+</table>  
+<!-- End Background Table -->
+</body>
+</html>

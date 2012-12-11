@@ -1,0 +1,83 @@
+.user-image-normal {
+	width: 25px;
+	height: 25px;
+}
+
+.user-image-normal-round {
+	width: 25px;
+	height: 25px;
+	border-radius: 100px;
+	background-color: #85cbd0;
+}
+
+.user-name-normal {
+	color: #ffffff;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 40px;
+   
+}
+
+.user-name-menu {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	cursor: pointer;
+	
+	
+ 
+}
+.user-name-menu a {
+	color: #fff !important;
+	line-height: 50px;
+	padding: 7px;
+	text-decoration: none
+}
+
+.user-name-menu .menuList a {
+	
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	cursor: pointer;
+	display: block;
+	
+}
+
+
+.user-name-menu-hover  {
+	cursor: pointer;
+    }
+
+.user-name-menu a:link {
+	cursor: pointer;
+}
+
+.user-name-menu a:visited {
+}
+
+.user-name-menu a:hover {
+	border-radius: 5px;
+	background-color: #06601D;
+	color: inherit;
+	cursor: pointer;
+	line-height: 50px;
+}
+
+
+
+.user-name-separator {
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+}
+
+.user-name-menu-container {
+	width: 150px;
+	height: 100px;
+	background-color: #ffffff;
+	-moz-box-shadow: 0 3px 3px #9c9c9c;
+	-webkit-box-shadow: 0 3px 3px #9c9c9c;
+	box-shadow: 0 3px 3px #9c9c9c;
+}

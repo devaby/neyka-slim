@@ -1,0 +1,579 @@
+Event log: ledger.class.php:52 ledger::create 23:11:2012-12:07:54 By Ridwan Abadi -- posting id no. 1715 created
+Event log: model.php:1550 model::calculateInvoiceLineItem 23:11:2012-12:07:54 By Ridwan Abadi -- type: service
+price: 90000000
+qty: 0
+line amount original: 90000000
+line price include: 90000000
+amount before tax: 
+amount after discount: 
+discount: 0
+tax value: 8181818.18
+totalAmount: 81818181.82
+totalBasePrice: 81818181.82
+totalBaseAmount: 90000000
+
+Event log: item.class.php:80 item::create 23:11:2012-12:07:54 By Ridwan Abadi -- item id no. 2064 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-12:07:54 By Ridwan Abadi -- posting id no. 1716 created
+Event log: item.class.php:80 item::create 23:11:2012-12:07:54 By Ridwan Abadi -- item id no. 2065 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-12:07:54 By Ridwan Abadi -- posting id no. 1717 created
+Event log: header.class.php:156 header::update 23:11:2012-12:08:20 By Ridwan Abadi -- invoice id no. 391 updated
+Event log: item.class.php:124 item::update 23:11:2012-12:08:20 By Ridwan Abadi -- item id no. 2027 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-12:08:20 By Ridwan Abadi -- posting id no. 2027 updated
+Event log: model.php:1550 model::calculateInvoiceLineItem 23:11:2012-12:08:20 By Ridwan Abadi -- type: inventory
+price: 9081
+qty: 1009
+line amount original: 10090
+line price include: 9081
+amount before tax: 
+amount after discount: 
+discount: 917.27
+tax value: 825.55
+totalAmount: 9172.72
+totalBasePrice: 8255.45
+totalBaseAmount: 9081
+
+Event log: item.class.php:124 item::update 23:11:2012-12:08:20 By Ridwan Abadi -- item id no. 2028 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-12:08:20 By Ridwan Abadi -- posting id no. 2028 updated
+Event log: item.class.php:124 item::update 23:11:2012-12:08:20 By Ridwan Abadi -- item id no. 2029 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-12:08:20 By Ridwan Abadi -- posting id no. 2029 updated
+Event log: item.class.php:124 item::update 23:11:2012-12:08:20 By Ridwan Abadi -- item id no. 2030 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-12:08:20 By Ridwan Abadi -- posting id no. 2030 updated
+Event log: model.php:1550 model::calculateInvoiceLineItem 23:11:2012-12:08:20 By Ridwan Abadi -- type: inventory
+price: 10000
+qty: 0
+line amount original: 10000
+line price include: 10000
+amount before tax: 
+amount after discount: 
+discount: 0
+tax value: 909.09
+totalAmount: 9090.91
+totalBasePrice: 9090.91
+totalBaseAmount: 10000
+
+Event log: item.class.php:124 item::update 23:11:2012-12:08:20 By Ridwan Abadi -- item id no. 2031 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-12:08:20 By Ridwan Abadi -- posting id no. 2031 updated
+Event log: item.class.php:124 item::update 23:11:2012-12:08:20 By Ridwan Abadi -- item id no. 2032 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-12:08:20 By Ridwan Abadi -- posting id no. 2032 updated
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-13:38:54 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-13:38:54 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-13:38:54 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: header.class.php:100 header::create 23:11:2012-13:38:54 By Ridwan Abadi -- payment id failed to create
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-13:39:14 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-13:39:14 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-13:39:14 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: header.class.php:100 header::create 23:11:2012-13:39:14 By Ridwan Abadi -- payment id failed to create
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-13:55:45 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-13:55:45 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-13:55:45 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: header.class.php:100 header::create 23:11:2012-13:55:45 By Ridwan Abadi -- payment id failed to create
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-13:57:09 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-13:57:09 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-13:57:09 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: header.class.php:94 header::create 23:11:2012-13:57:09 By Ridwan Abadi -- payment id no. 411 created
+Event log: item.class.php:80 item::create 23:11:2012-13:57:09 By Ridwan Abadi -- item id no. 2066 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-13:57:09 By Ridwan Abadi -- posting id no. 1718 created
+Event log: item.class.php:86 item::create 23:11:2012-13:57:10 By Ridwan Abadi -- item id failed to create, reason: 
+Event log: item.class.php:86 item::create 23:11:2012-13:57:10 By Ridwan Abadi -- item id failed to create, reason: 
+Event log: item.class.php:86 item::create 23:11:2012-13:57:10 By Ridwan Abadi -- item id failed to create, reason: 
+Event log: header.class.php:156 header::update 23:11:2012-14:03:46 By Ridwan Abadi -- invoice id no. 406 updated
+Event log: item.class.php:126 item::update 23:11:2012-14:03:46 By Ridwan Abadi -- item id no. 2058 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-14:03:46 By Ridwan Abadi -- posting id no. 2058 updated
+Event log: model.php:1550 model::calculateInvoiceLineItem 23:11:2012-14:03:46 By Ridwan Abadi -- type: inventory
+price: 5000
+qty: 0
+line amount original: 5000
+line price include: 5000
+amount before tax: 
+amount after discount: 
+discount: 0
+tax value: 500
+totalAmount: 5000
+totalBasePrice: 4545.45
+totalBaseAmount: 5000
+
+Event log: item.class.php:126 item::update 23:11:2012-14:03:46 By Ridwan Abadi -- item id no. 2059 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-14:03:46 By Ridwan Abadi -- posting id no. 2059 updated
+Event log: item.class.php:126 item::update 23:11:2012-14:03:46 By Ridwan Abadi -- item id no. 2060 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-14:03:46 By Ridwan Abadi -- posting id no. 2060 updated
+Event log: model.php:1550 model::calculateInvoiceLineItem 23:11:2012-14:03:46 By Ridwan Abadi -- type: service
+price: 50000000
+qty: 0
+line amount original: 50000000
+line price include: 50000000
+amount before tax: 
+amount after discount: 
+discount: 0
+tax value: 5000000
+totalAmount: 50000000
+totalBasePrice: 45454545.45
+totalBaseAmount: 50000000
+
+Event log: item.class.php:126 item::update 23:11:2012-14:03:46 By Ridwan Abadi -- item id no. 2061 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-14:03:46 By Ridwan Abadi -- posting id no. 2061 updated
+Event log: item.class.php:126 item::update 23:11:2012-14:03:46 By Ridwan Abadi -- item id no. 2062 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-14:03:46 By Ridwan Abadi -- posting id no. 2062 updated
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-14:08:10 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-14:08:10 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-14:08:10 By Ridwan Abadi -- 
+price: 
+qty: 1
+total: 0
+
+Event log: header.class.php:94 header::create 23:11:2012-14:08:10 By Ridwan Abadi -- payment id no. 412 created
+Event log: item.class.php:81 item::create 23:11:2012-14:08:10 By Ridwan Abadi -- item id no. 2068 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-14:08:10 By Ridwan Abadi -- posting id no. 1719 created
+Event log: item.class.php:81 item::create 23:11:2012-14:08:10 By Ridwan Abadi -- item id no. 2069 created
+Event log: ledger.class.php:58 ledger::create 23:11:2012-14:08:10 By Ridwan Abadi -- posting id failed to create
+Event log: item.class.php:87 item::create 23:11:2012-14:08:11 By Ridwan Abadi -- item id failed to create, reason: 
+Event log: item.class.php:87 item::create 23:11:2012-14:08:11 By Ridwan Abadi -- item id failed to create, reason: 
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-14:18:02 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-14:18:02 By Ridwan Abadi -- payment id no. 413 created
+Event log: item.class.php:81 item::create 23:11:2012-14:18:02 By Ridwan Abadi -- item id no. 2070 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-14:18:02 By Ridwan Abadi -- posting id no. 1721 created
+Event log: item.class.php:81 item::create 23:11:2012-14:18:02 By Ridwan Abadi -- item id no. 2071 created
+Event log: ledger.class.php:58 ledger::create 23:11:2012-14:18:02 By Ridwan Abadi -- posting id failed to create
+Event log: model.php:3239 model::calculateStandardLineItem 23:11:2012-14:19:12 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-14:19:12 By Ridwan Abadi -- payment id no. 414 created
+Event log: item.class.php:81 item::create 23:11:2012-14:19:12 By Ridwan Abadi -- item id no. 2072 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-14:19:12 By Ridwan Abadi -- posting id no. 1723 created
+Event log: item.class.php:81 item::create 23:11:2012-14:19:12 By Ridwan Abadi -- item id no. 2073 created
+Event log: ledger.class.php:58 ledger::create 23:11:2012-14:19:12 By Ridwan Abadi -- posting id failed to create
+Event log: model.php:3241 model::calculateStandardLineItem 23:11:2012-14:33:54 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-14:33:54 By Ridwan Abadi -- payment id no. 415 created
+Event log: item.class.php:81 item::create 23:11:2012-14:33:54 By Ridwan Abadi -- item id no. 2074 created
+Event log: model.php:3241 model::calculateStandardLineItem 23:11:2012-14:34:25 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-14:34:25 By Ridwan Abadi -- payment id no. 416 created
+Event log: item.class.php:81 item::create 23:11:2012-14:34:25 By Ridwan Abadi -- item id no. 2075 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-14:34:25 By Ridwan Abadi -- posting id no. 1725 created
+Event log: item.class.php:87 item::create 23:11:2012-14:34:26 By Ridwan Abadi -- item id failed to create, reason: 
+Event log: model.php:3241 model::calculateStandardLineItem 23:11:2012-14:36:17 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-14:36:17 By Ridwan Abadi -- payment id no. 417 created
+Event log: item.class.php:81 item::create 23:11:2012-14:36:17 By Ridwan Abadi -- item id no. 2076 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-14:36:17 By Ridwan Abadi -- posting id no. 1726 created
+Event log: ledger.class.php:116 ledger::pullID 23:11:2012-14:36:17 By Ridwan Abadi -- pull coa id no. 407 has been pulled
+Event log: item.class.php:87 item::create 23:11:2012-14:36:17 By Ridwan Abadi -- item id failed to create, reason: 
+Event log: model.php:3241 model::calculateStandardLineItem 23:11:2012-14:41:19 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-14:41:19 By Ridwan Abadi -- payment id no. 418 created
+Event log: item.class.php:81 item::create 23:11:2012-14:41:19 By Ridwan Abadi -- item id no. 2077 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-14:41:19 By Ridwan Abadi -- posting id no. 1727 created
+Event log: ledger.class.php:116 ledger::pullID 23:11:2012-14:41:20 By Ridwan Abadi -- pull coa id no.  has been pulled
+Event log: item.class.php:87 item::create 23:11:2012-14:41:20 By Ridwan Abadi -- item id failed to create, reason: 
+Event log: model.php:3241 model::calculateStandardLineItem 23:11:2012-14:41:56 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-14:41:56 By Ridwan Abadi -- payment id no. 419 created
+Event log: item.class.php:81 item::create 23:11:2012-14:41:56 By Ridwan Abadi -- item id no. 2078 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-14:41:56 By Ridwan Abadi -- posting id no. 1728 created
+Event log: ledger.class.php:116 ledger::pullID 23:11:2012-14:41:56 By Ridwan Abadi -- pull coa id no. 407 has been pulled
+Event log: item.class.php:87 item::create 23:11:2012-14:41:57 By Ridwan Abadi -- item id failed to create, reason: 
+Event log: model.php:3241 model::calculateStandardLineItem 23:11:2012-14:43:25 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-14:43:25 By Ridwan Abadi -- payment id no. 420 created
+Event log: item.class.php:81 item::create 23:11:2012-14:43:25 By Ridwan Abadi -- item id no. 2079 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-14:43:25 By Ridwan Abadi -- posting id no. 1729 created
+Event log: ledger.class.php:116 ledger::pullID 23:11:2012-14:43:25 By Ridwan Abadi -- pull coa id no. 407 has been pulled
+Event log: item.class.php:87 item::create 23:11:2012-14:43:25 By Ridwan Abadi -- item id failed to create, reason: 
+Event log: model.php:3241 model::calculateStandardLineItem 23:11:2012-14:46:38 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-14:46:38 By Ridwan Abadi -- payment id no. 421 created
+Event log: item.class.php:81 item::create 23:11:2012-14:46:38 By Ridwan Abadi -- item id no. 2080 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-14:46:38 By Ridwan Abadi -- posting id no. 1730 created
+Event log: ledger.class.php:116 ledger::pullID 23:11:2012-14:46:38 By Ridwan Abadi -- pull coa id no. 407 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-14:46:38 By Ridwan Abadi -- item id no. 2081 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-14:46:38 By Ridwan Abadi -- posting id no. 1731 created
+You may be a victim of a CSRF attack By Ridwan Abadi -- 
+You may be a victim of a CSRF attack By Ridwan Abadi -- 
+Event log: model.php:3293 model::calculateStandardLineItem 23:11:2012-14:58:26 By Ridwan Abadi -- 
+price: 34234234
+qty: 1
+total: 34234234
+
+Event log: header.class.php:94 header::create 23:11:2012-14:58:26 By Ridwan Abadi -- payment id no. 422 created
+Event log: item.class.php:81 item::create 23:11:2012-14:58:26 By Ridwan Abadi -- item id no. 2082 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-14:58:26 By Ridwan Abadi -- posting id no. 1732 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-14:58:26 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-14:58:26 By Ridwan Abadi -- item id no. 2083 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-14:58:26 By Ridwan Abadi -- posting id no. 1733 created
+Event log: model.php:3293 model::calculateStandardLineItem 23:11:2012-15:02:07 By Ridwan Abadi -- 
+price: 50000000
+qty: 1
+total: 50000000
+
+Event log: header.class.php:94 header::create 23:11:2012-15:02:07 By Ridwan Abadi -- payment id no. 423 created
+Event log: item.class.php:81 item::create 23:11:2012-15:02:07 By Ridwan Abadi -- item id no. 2084 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-15:02:07 By Ridwan Abadi -- posting id no. 1734 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-15:02:07 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-15:02:07 By Ridwan Abadi -- item id no. 2085 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-15:02:07 By Ridwan Abadi -- posting id no. 1735 created
+Event log: model.php:3293 model::calculateStandardLineItem 23:11:2012-15:04:36 By Ridwan Abadi -- 
+price: 70000000
+qty: 1
+total: 70000000
+
+Event log: header.class.php:94 header::create 23:11:2012-15:04:36 By Ridwan Abadi -- payment id no. 424 created
+Event log: item.class.php:81 item::create 23:11:2012-15:04:36 By Ridwan Abadi -- item id no. 2086 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-15:04:36 By Ridwan Abadi -- posting id no. 1736 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-15:04:36 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-15:04:36 By Ridwan Abadi -- item id no. 2087 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-15:04:36 By Ridwan Abadi -- posting id no. 1737 created
+Event log: model.php:3293 model::calculateStandardLineItem 23:11:2012-15:50:39 By Ridwan Abadi -- 
+price: 19081
+qty: 1
+total: 19081
+
+Event log: model.php:3293 model::calculateStandardLineItem 23:11:2012-15:50:39 By Ridwan Abadi -- 
+price: 55005500
+qty: 1
+total: 55005500
+
+Event log: header.class.php:94 header::create 23:11:2012-15:50:39 By Ridwan Abadi -- payment id no. 425 created
+Event log: item.class.php:81 item::create 23:11:2012-15:50:39 By Ridwan Abadi -- item id no. 2088 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-15:50:39 By Ridwan Abadi -- posting id no. 1738 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-15:50:39 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-15:50:39 By Ridwan Abadi -- item id no. 2089 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-15:50:39 By Ridwan Abadi -- posting id no. 1739 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-15:50:39 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-15:50:39 By Ridwan Abadi -- item id no. 2090 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-15:50:39 By Ridwan Abadi -- posting id no. 1740 created
+Event log: model.php:3293 model::calculateStandardLineItem 23:11:2012-15:51:43 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-15:51:43 By Ridwan Abadi -- payment id no. 426 created
+Event log: item.class.php:81 item::create 23:11:2012-15:51:43 By Ridwan Abadi -- item id no. 2091 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-15:51:43 By Ridwan Abadi -- posting id no. 1741 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-15:51:43 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-15:51:43 By Ridwan Abadi -- item id no. 2092 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-15:51:43 By Ridwan Abadi -- posting id no. 1742 created
+Event log: model.php:3295 model::calculateStandardLineItem 23:11:2012-16:06:58 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-16:06:58 By Ridwan Abadi -- payment id no. 427 created
+Event log: item.class.php:81 item::create 23:11:2012-16:06:58 By Ridwan Abadi -- item id no. 2093 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:06:58 By Ridwan Abadi -- posting id no. 1743 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-16:06:58 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-16:06:58 By Ridwan Abadi -- item id no. 2094 created
+Event log: model.php:3295 model::calculateStandardLineItem 23:11:2012-16:08:21 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-16:08:21 By Ridwan Abadi -- payment id no. 428 created
+Event log: item.class.php:81 item::create 23:11:2012-16:08:21 By Ridwan Abadi -- item id no. 2095 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:08:21 By Ridwan Abadi -- posting id no. 1744 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-16:08:21 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-16:08:21 By Ridwan Abadi -- item id no. 2096 created
+Event log: model.php:3295 model::calculateStandardLineItem 23:11:2012-16:10:42 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-16:10:42 By Ridwan Abadi -- payment id no. 429 created
+Event log: item.class.php:81 item::create 23:11:2012-16:10:42 By Ridwan Abadi -- item id no. 2097 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:10:42 By Ridwan Abadi -- posting id no. 1745 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-16:10:42 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-16:10:42 By Ridwan Abadi -- item id no. 2098 created
+Event log: model.php:3295 model::calculateStandardLineItem 23:11:2012-16:11:28 By Ridwan Abadi -- 
+price: 80000000
+qty: 1
+total: 80000000
+
+Event log: header.class.php:94 header::create 23:11:2012-16:11:28 By Ridwan Abadi -- payment id no. 430 created
+Event log: item.class.php:81 item::create 23:11:2012-16:11:28 By Ridwan Abadi -- item id no. 2099 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:11:28 By Ridwan Abadi -- posting id no. 1746 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-16:11:28 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-16:11:28 By Ridwan Abadi -- item id no. 2100 created
+Event log: model.php:3303 model::calculateStandardLineItem 23:11:2012-16:13:17 By Ridwan Abadi -- 
+price: 90000000
+qty: 1
+total: 90000000
+
+Event log: header.class.php:94 header::create 23:11:2012-16:13:17 By Ridwan Abadi -- payment id no. 431 created
+Event log: item.class.php:81 item::create 23:11:2012-16:13:17 By Ridwan Abadi -- item id no. 2101 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:13:17 By Ridwan Abadi -- posting id no. 1747 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-16:13:17 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-16:13:17 By Ridwan Abadi -- item id no. 2102 created
+Event log: header.class.php:192 header::paid 23:11:2012-16:13:17 By Ridwan Abadi -- invoice id no. 407 paid with amount of 90,000,000.00
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:13:17 By Ridwan Abadi -- posting id no. 1748 created
+Event log: header.class.php:156 header::update 23:11:2012-16:50:01 By Ridwan Abadi -- invoice id no. 406 updated
+Event log: item.class.php:126 item::update 23:11:2012-16:50:01 By Ridwan Abadi -- item id no. 2058 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-16:50:01 By Ridwan Abadi -- posting id no. 2058 updated
+Event log: model.php:1639 model::calculateInvoiceLineItem 23:11:2012-16:50:01 By Ridwan Abadi -- type: inventory
+price: 5000
+qty: 0
+line amount original: 5000
+line price include: 5000
+amount before tax: 
+amount after discount: 
+discount: 0
+tax value: 500
+totalAmount: 5000
+totalBasePrice: 4545.45
+totalBaseAmount: 5000
+
+Event log: item.class.php:126 item::update 23:11:2012-16:50:01 By Ridwan Abadi -- item id no. 2059 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-16:50:01 By Ridwan Abadi -- posting id no. 2059 updated
+Event log: item.class.php:126 item::update 23:11:2012-16:50:01 By Ridwan Abadi -- item id no. 2060 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-16:50:01 By Ridwan Abadi -- posting id no. 2060 updated
+Event log: model.php:1639 model::calculateInvoiceLineItem 23:11:2012-16:50:01 By Ridwan Abadi -- type: service
+price: 50000000
+qty: 0
+line amount original: 50000000
+line price include: 50000000
+amount before tax: 
+amount after discount: 
+discount: 0
+tax value: 5000000
+totalAmount: 50000000
+totalBasePrice: 45454545.45
+totalBaseAmount: 50000000
+
+Event log: item.class.php:126 item::update 23:11:2012-16:50:01 By Ridwan Abadi -- item id no. 2061 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-16:50:01 By Ridwan Abadi -- posting id no. 2061 updated
+Event log: item.class.php:126 item::update 23:11:2012-16:50:01 By Ridwan Abadi -- item id no. 2062 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-16:50:01 By Ridwan Abadi -- posting id no. 2062 updated
+Event log: model.php:3340 model::calculateStandardLineItem 23:11:2012-16:50:14 By Ridwan Abadi -- 
+price: 55005500
+qty: 1
+total: 55005500
+
+Event log: header.class.php:100 header::create 23:11:2012-16:50:15 By Ridwan Abadi -- payment id failed to create
+Event log: model.php:3340 model::calculateStandardLineItem 23:11:2012-16:50:38 By Ridwan Abadi -- 
+price: 55005500
+qty: 1
+total: 55005500
+
+Event log: header.class.php:94 header::create 23:11:2012-16:50:38 By Ridwan Abadi -- payment id no. 433 created
+Event log: item.class.php:81 item::create 23:11:2012-16:50:38 By Ridwan Abadi -- item id no. 2103 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:50:38 By Ridwan Abadi -- posting id no. 1749 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-16:50:38 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-16:50:38 By Ridwan Abadi -- item id no. 2104 created
+Event log: header.class.php:192 header::paid 23:11:2012-16:50:38 By Ridwan Abadi -- invoice id no. 406 paid with amount of 55,005,500.00
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:50:38 By Ridwan Abadi -- posting id no. 1750 created
+Event log: header.class.php:94 header::create 23:11:2012-16:51:31 By Ridwan Abadi -- invoice id no. 434 created
+Event log: item.class.php:81 item::create 23:11:2012-16:51:31 By Ridwan Abadi -- item id no. 2105 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:51:31 By Ridwan Abadi -- posting id no. 1751 created
+Event log: model.php:1639 model::calculateInvoiceLineItem 23:11:2012-16:51:31 By Ridwan Abadi -- type: service
+price: 90000000
+qty: 0
+line amount original: 90000000
+line price include: 90000000
+amount before tax: 
+amount after discount: 
+discount: 0
+tax value: 9000000
+totalAmount: 90000000
+totalBasePrice: 81818181.82
+totalBaseAmount: 90000000
+
+Event log: item.class.php:81 item::create 23:11:2012-16:51:31 By Ridwan Abadi -- item id no. 2106 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:51:31 By Ridwan Abadi -- posting id no. 1752 created
+Event log: item.class.php:81 item::create 23:11:2012-16:51:31 By Ridwan Abadi -- item id no. 2107 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:51:31 By Ridwan Abadi -- posting id no. 1753 created
+Event log: header.class.php:94 header::create 23:11:2012-16:51:57 By Ridwan Abadi -- invoice id no. 435 created
+Event log: item.class.php:81 item::create 23:11:2012-16:51:57 By Ridwan Abadi -- item id no. 2108 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:51:57 By Ridwan Abadi -- posting id no. 1754 created
+Event log: model.php:1639 model::calculateInvoiceLineItem 23:11:2012-16:51:57 By Ridwan Abadi -- type: service
+price: 90000000
+qty: 0
+line amount original: 90000000
+line price include: 90000000
+amount before tax: 
+amount after discount: 
+discount: 0
+tax value: 9000000
+totalAmount: 90000000
+totalBasePrice: 81818181.82
+totalBaseAmount: 90000000
+
+Event log: item.class.php:81 item::create 23:11:2012-16:51:57 By Ridwan Abadi -- item id no. 2109 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:51:57 By Ridwan Abadi -- posting id no. 1755 created
+Event log: item.class.php:81 item::create 23:11:2012-16:51:57 By Ridwan Abadi -- item id no. 2110 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:51:57 By Ridwan Abadi -- posting id no. 1756 created
+Event log: header.class.php:94 header::create 23:11:2012-16:52:27 By Ridwan Abadi -- invoice id no. 436 created
+Event log: item.class.php:81 item::create 23:11:2012-16:52:27 By Ridwan Abadi -- item id no. 2111 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:52:27 By Ridwan Abadi -- posting id no. 1757 created
+Event log: model.php:1639 model::calculateInvoiceLineItem 23:11:2012-16:52:27 By Ridwan Abadi -- type: service
+price: 90000000
+qty: 0
+line amount original: 90000000
+line price include: 90000000
+amount before tax: 
+amount after discount: 
+discount: 0
+tax value: 9000000
+totalAmount: 90000000
+totalBasePrice: 81818181.82
+totalBaseAmount: 90000000
+
+Event log: item.class.php:81 item::create 23:11:2012-16:52:27 By Ridwan Abadi -- item id no. 2112 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:52:27 By Ridwan Abadi -- posting id no. 1758 created
+Event log: item.class.php:81 item::create 23:11:2012-16:52:27 By Ridwan Abadi -- item id no. 2113 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:52:27 By Ridwan Abadi -- posting id no. 1759 created
+Event log: model.php:3340 model::calculateStandardLineItem 23:11:2012-16:52:43 By Ridwan Abadi -- 
+price: 99000000
+qty: 1
+total: 99000000
+
+Event log: header.class.php:94 header::create 23:11:2012-16:52:43 By Ridwan Abadi -- payment id no. 437 created
+Event log: item.class.php:81 item::create 23:11:2012-16:52:43 By Ridwan Abadi -- item id no. 2114 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:52:43 By Ridwan Abadi -- posting id no. 1760 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-16:52:43 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-16:52:43 By Ridwan Abadi -- item id no. 2115 created
+Event log: header.class.php:192 header::paid 23:11:2012-16:52:43 By Ridwan Abadi -- invoice id no. 436 paid with amount of 99,000,000.00
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:52:43 By Ridwan Abadi -- posting id no. 1761 created
+Event log: model.php:3340 model::calculateStandardLineItem 23:11:2012-16:53:26 By Ridwan Abadi -- 
+price: 99000000
+qty: 1
+total: 99000000
+
+Event log: header.class.php:94 header::create 23:11:2012-16:53:26 By Ridwan Abadi -- payment id no. 438 created
+Event log: item.class.php:81 item::create 23:11:2012-16:53:26 By Ridwan Abadi -- item id no. 2116 created
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:53:26 By Ridwan Abadi -- posting id no. 1762 created
+Event log: ledger.class.php:120 ledger::pullID 23:11:2012-16:53:26 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 23:11:2012-16:53:26 By Ridwan Abadi -- item id no. 2117 created
+Event log: header.class.php:192 header::paid 23:11:2012-16:53:26 By Ridwan Abadi -- invoice id no. 436 paid with amount of 99,000,000.00
+Event log: ledger.class.php:52 ledger::create 23:11:2012-16:53:26 By Ridwan Abadi -- posting id no. 1763 created
+Event log: header.class.php:156 header::update 23:11:2012-16:53:38 By Ridwan Abadi -- invoice id no. 436 updated
+Event log: item.class.php:126 item::update 23:11:2012-16:53:38 By Ridwan Abadi -- item id no. 2111 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-16:53:38 By Ridwan Abadi -- posting id no. 2111 updated
+Event log: model.php:1639 model::calculateInvoiceLineItem 23:11:2012-16:53:38 By Ridwan Abadi -- type: service
+price: 180000000
+qty: 0
+line amount original: 180000000
+line price include: 180000000
+amount before tax: 
+amount after discount: 
+discount: 0
+tax value: 18000000
+totalAmount: 180000000
+totalBasePrice: 163636363.64
+totalBaseAmount: 180000000
+
+Event log: item.class.php:126 item::update 23:11:2012-16:53:38 By Ridwan Abadi -- item id no. 2112 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-16:53:38 By Ridwan Abadi -- posting id no. 2112 updated
+Event log: item.class.php:126 item::update 23:11:2012-16:53:38 By Ridwan Abadi -- item id no. 2113 updated
+Event log: ledger.class.php:87 ledger::update 23:11:2012-16:53:39 By Ridwan Abadi -- posting id no. 2113 updated
+Event log: model.php:3340 model::calculateStandardLineItem 24:11:2012-04:11:20 By Ridwan Abadi -- 
+price: 19081
+qty: 1
+total: 19081
+
+Event log: header.class.php:100 header::create 24:11:2012-04:11:20 By Ridwan Abadi -- payment id failed to create
+Event log: model.php:3340 model::calculateStandardLineItem 24:11:2012-04:11:36 By Ridwan Abadi -- 
+price: 19081
+qty: 1
+total: 19081
+
+Event log: header.class.php:94 header::create 24:11:2012-04:11:36 By Ridwan Abadi -- payment id no. 440 created
+Event log: item.class.php:81 item::create 24:11:2012-04:11:36 By Ridwan Abadi -- item id no. 2118 created
+Event log: ledger.class.php:52 ledger::create 24:11:2012-04:11:36 By Ridwan Abadi -- posting id no. 1764 created
+Event log: ledger.class.php:120 ledger::pullID 24:11:2012-04:11:36 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 24:11:2012-04:11:36 By Ridwan Abadi -- item id no. 2119 created
+Event log: header.class.php:192 header::paid 24:11:2012-04:11:36 By Ridwan Abadi -- invoice id no. 391 paid with amount of 19,081.00
+Event log: ledger.class.php:52 ledger::create 24:11:2012-04:11:36 By Ridwan Abadi -- posting id no. 1765 created
+You may be a victim of a CSRF attack By Ridwan Abadi -- 
+Event log: model.php:3340 model::calculateStandardLineItem 24:11:2012-04:12:42 By Ridwan Abadi -- 
+price: 99000000
+qty: 1
+total: 99000000
+
+Event log: header.class.php:94 header::create 24:11:2012-04:12:42 By Ridwan Abadi -- payment id no. 441 created
+Event log: item.class.php:81 item::create 24:11:2012-04:12:42 By Ridwan Abadi -- item id no. 2120 created
+Event log: ledger.class.php:52 ledger::create 24:11:2012-04:12:42 By Ridwan Abadi -- posting id no. 1766 created
+Event log: ledger.class.php:120 ledger::pullID 24:11:2012-04:12:42 By Ridwan Abadi -- pull coa id no. 46 has been pulled
+Event log: item.class.php:81 item::create 24:11:2012-04:12:42 By Ridwan Abadi -- item id no. 2121 created
+Event log: header.class.php:192 header::paid 24:11:2012-04:12:42 By Ridwan Abadi -- invoice id no. 436 paid with amount of 99,000,000.00
+Event log: ledger.class.php:52 ledger::create 24:11:2012-04:12:42 By Ridwan Abadi -- posting id no. 1767 created

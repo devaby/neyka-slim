@@ -1,0 +1,6 @@
+div.core-image-handler{
+	background: url('library/images/profile/no-images.jpeg');
+	border: #000 solid 2px;
+	width:200px;
+	height: 200px;
+}

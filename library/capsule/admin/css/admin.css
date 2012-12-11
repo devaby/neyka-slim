@@ -1,0 +1,851 @@
+#adminContainer {
+	height:26px;
+	position:fixed;
+	top:0;
+	z-index:10000000;
+}
+
+#admin-topHeader {
+	height:11px;
+}
+
+.globalNotificationCenter {
+	position:fixed;
+	bottom:0;
+	left:0;
+	background-color:#333;
+	z-index:100000;
+	margin-left:10px;
+	margin-bottom:10px;
+	color:#fff;
+	padding:10px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	line-height:17px;
+}
+
+.adminTop {
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:6px;
+	padding-bottom:5px;
+	width:100%;
+	height:26px;
+	background-image:url(/cornc/library/capsule/admin/image/bgAdmin.png);
+/*background-image: url(../image/bgAdmin.png);
+	border-bottom: 1px #acacac solid;*/
+	z-index:999999;
+	position:fixed;
+/*opacity:0.9;
+	filter:alpha(opacity=90);*/
+	-moz-box-shadow:0 0 7px #202020;
+	-webkit-box-shadow:0 0 7px #202020;
+	box-shadow:0 0 7px #202020;
+}
+
+.adminLogout,.adminDesign,.adminExit {
+	border-left-color:#373737;
+	border-left-width:1px;
+	border-left-style:solid;
+	float:right;
+	margin-top:-9px;
+	padding-top:12px;
+	height:100%;
+	width:80px;
+	text-align:center;
+	cursor:pointer;
+	font-size:12px;
+}
+
+.adminLogout:link,.adminDesign:link,.adminExit:link {
+	text-shadow:0 1px #131313;
+	color:#fff;
+	text-decoration:none;
+}
+
+.adminLogout:visited,.adminDesign:visited,.adminExit:visited {
+	text-shadow:0 1px #131313;
+	color:#fff;
+}
+
+.adminLogout:hover,.adminDesign:hover,.adminExit:hover {
+	background-image:url(/cornc/library/capsule/admin/image/bgAdminHover.png);
+	text-shadow:0 0 #131313;
+	color:#fff;
+}
+
+.adminLogout:active,.adminDesign:active {
+	background-image:url(/cornc/library/capsule/admin/image/bgAdminActive.png);
+	text-shadow:0 0 #131313;
+	color:#fff;
+}
+
+#myTextarea {
+	float:right;
+	background-color:#f8f8f8;
+	width:100%;
+	outline:none;
+}
+
+.myContentHeader {
+	border:1px solid #c4c4c4;
+	width:90%;
+	padding:5px;
+	margin-bottom:10px;
+	margin-right:4px;
+}
+
+.contentSubmit {
+	background-color:#f3f3f3;
+	border:1px solid #b6b6b6;
+	width:44px;
+	padding:5px;
+	float:right;
+}
+
+.contentSubmit:hover {
+	background-color:#88d1de;
+	border:1px solid #b6b6b6;
+	width:44px;
+	padding:5px;
+}
+
+.contentSubmit:active {
+	background-color:#94e3f2;
+	border:1px solid #b6b6b6;
+	width:44px;
+	padding:5px;
+}
+
+.buttonAjaxLoader {
+	margin:-5px;
+	margin-bottom:-4px;
+	padding-top:4px;
+	padding-bottom:4px;
+	height:14px;
+}
+
+/*
+**
+** This is for option gear css
+**
+**
+*/
+#overlay {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:#1c1c1c;
+	filter:alpha(opacity=70);
+	-moz-opacity:.7;
+	-khtml-opacity:.7;
+	opacity:.7;
+	z-index:10000;
+}
+
+.optionGear {
+	border-color:#818181;
+	border-width:1px;
+	border-style:hidden;
+	width:16px;
+	height:16px;
+}
+
+.optionGearImage {
+	width:14px;
+	height:14px;
+	margin-top:0;
+	margin-right:4px;
+}
+
+.optionGear:hover {
+	background-color:#fff;
+	-moz-box-shadow:0 0 2px #b1b1b1;
+	-webkit-box-shadow:0 0 2px #b1b1b1;
+	box-shadow:0 0 2px #b1b1b1;
+}
+
+.optionGearActive {
+	background-color:#fff;
+	-moz-box-shadow:0 0 1px #818181;
+	-webkit-box-shadow:0 0 1px #818181;
+	box-shadow:0 0 1px #818181;
+}
+
+.optionGearContent {
+	border-color:#ccc;
+	border-width:1px;
+	border-style:solid;
+	position:absolute;
+	width:100px;
+	background-color:#fff;
+	padding:5px;
+	z-index:100;
+}
+
+.optionGearContentMulti {
+	border-color:#ccc;
+	border-width:1px;
+	border-style:solid;
+	position:absolute;
+	background-color:#fff;
+	padding-left:5px;
+	padding-right:0;
+	padding-bottom:5px;
+	padding-top:0;
+	z-index:100;
+}
+
+.optionGearContentMultiButton {
+	border-top:1px solid #dfdfdf;
+}
+
+#option-select-multi-cancel {
+	float:right;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#option-select-multi-button {
+	float:right;
+	margin-top:5px;
+}
+
+.optionGearContentMultiContent {
+	width:201px;
+	height:150px;
+	overflow-y:auto;
+}
+
+.option-first-separator,.option-last-separator {
+	height:8px;
+	list-style:none;
+}
+
+.optionGearContent table {
+	font-size:12px;
+	text-align:left;
+	border-collapse:collapse;
+	width:100%;
+}
+
+.optionGearContent table tr td {
+	padding:2px;
+}
+
+.optionGearContentImg {
+	width:14px;
+}
+
+.optionGearContentTableHover {
+	background-color:#b1b1b1;
+}
+
+.optionGearPopUp {
+	border-color:#3d3d3d;
+	border-width:7px;
+	border-style:solid;
+	background-color:#f8f8f8;
+	position:fixed;
+	width:400px;
+	z-index:10001;
+	padding:10px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+.optionRight {
+	text-align:right;
+}
+
+.optionRight.small {
+	text-align:right;
+	width:110px;
+}
+
+.optionBold {
+	font-weight:700;
+}
+
+.optionCenter {
+	text-align:center;
+}
+
+.optionCenter.small {
+	text-align:center;
+	width:110px;
+}
+
+.optionLeft {
+	text-align:left;
+}
+
+.optionLeft.small {
+	text-align:left;
+	width:110px;
+}
+
+.optionInput {
+	border-color:#b9b9b9;
+	border-width:1px;
+	border-style:solid;
+	width:200px;
+	padding:3px;
+	outline:none;
+}
+
+.option-select-multi {
+	list-style:none;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+
+.option-check {
+	margin-right:5px;
+}
+
+.displayCapsuleOptionHeader {
+	font-size:16px;
+	font-weight:700;
+}
+
+.displayCapsuleOptionContent {
+	border-collapse:collapse;
+	font-size:12px;
+	width:auto;
+}
+
+.displayCapsuleOptionContent tr td {
+	padding:5px;
+}
+
+.capSubmitOption,.capCancelOption {
+	float:right;
+}
+
+/*
+**
+** This is for menu set toolbar
+**
+**
+*/
+#adminMenuSet {
+	padding:0;
+	margin-top:0;
+	margin-left:20px;
+	padding-top:3px;
+	font-size:12px;
+}
+
+#adminMenuSet span {
+	float:left;
+	margin-right:5px;
+}
+
+#adminMenuSet li {
+	list-style-type:none;
+	float:left;
+	margin-right:30px;
+}
+
+#adminMenuSet li a:link {
+	text-shadow:0 1px #131313;
+	color:#fff;
+	text-decoration:none;
+}
+
+#adminMenuSet li a:visited {
+	text-shadow:0 1px #3d3d3d;
+	color:#fff;
+}
+
+#adminMenuSet li a:hover {
+	text-shadow:0 1px #131313;
+	color:#57aaad;
+}
+
+.menuSet {
+	float:left;
+	margin-left:5px;
+}
+
+.menuSetTool-Bold {
+	font-weight:700;
+}
+
+.adminMenuPopUp {
+	background-color:#3d3d3d;
+	position:absolute;
+	-moz-box-shadow:1px 2px 5px #202020;
+	-webkit-box-shadow:1px 2px 5px #202020;
+	box-shadow:1px 2px 5px #202020;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	padding:10px;
+	z-index:99999;
+}
+
+.adminTablePopUpCapsule {
+	border-collapse:collapse;
+	font-family:Helvetica;
+	color:#fff;
+	font-size:12px;
+	width:200px;
+	margin-top:5px;
+}
+
+.adminTablePopUpCapsuleImage {
+	width:20px;
+}
+
+.dragCapsule {
+	cursor:grab;
+	cursor:-moz-grab;
+	cursor:-webkit-grab;
+}
+
+.dragCapsuleStart {
+	border-color:#fff;
+	border-width:2px;
+	border-style:dashed;
+	background-color:#3d3d3d;
+	color:#fff;
+	font-weight:700;
+	text-align:center;
+	padding:5px;
+	width:100%;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	opacity:.8;
+}
+
+.capsuleContainer {
+	width:100%;
+}
+
+.capsuleContainerHover {
+	background-color:#ff0;
+	overflow:auto;
+}
+
+.adminTablePopUpCapsule tr td {
+	border-bottom-color:#737373;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.adminMenuPopUpPointer {
+	background-image:url(/cornc/library/capsule/admin/image/pointer.png);
+	width:25px;
+	height:14px;
+	margin-top:-17px;
+	position:absolute;
+	z-index:9999;
+}
+
+.admin-popUpMenu {
+	border-color:#3d3d3d;
+	border-width:7px;
+	border-style:solid;
+	background-color:#f8f8f8;
+	width:75%;
+	min-height:400px;
+	padding-top:30px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:35px;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:10001;
+	top:70px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	z-index:10010;
+}
+
+.admin-popUpMenuSmall {
+	border-color:#3d3d3d;
+	border-width:7px;
+	border-style:solid;
+	background-color:#f8f8f8;
+	width:25%;
+	padding-top:30px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:35px;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:10001;
+	top:150px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	z-index:10010;
+}
+
+.admin-actContainer {
+	position:fixed;
+}
+
+.admin-actContainer-addSetButton {
+	background-color:#3d3d3d;
+	position:fixed;
+	margin-top:-10px;
+	margin-left:-130px;
+	width:80px;
+	height:18px;
+	z-index:10001;
+	padding:10px;
+	font-size:16px;
+	font-weight:700;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+}
+
+.admin-actContainer-addMenuButton {
+	background-color:#3d3d3d;
+	position:fixed;
+	margin-top:33px;
+	margin-left:-100px;
+	width:50px;
+	height:25px;
+	z-index:10001;
+	padding:10px;
+	font-size:16px;
+	font-weight:700;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+}
+
+.admin-actContainer-addMenuButton:hover {
+	background-color:#696969;
+}
+
+.admin-actContainer-delMenuButton {
+	background-color:#3d3d3d;
+	position:fixed;
+	margin-top:83px;
+	margin-left:-100px;
+	width:50px;
+	height:25px;
+	z-index:10001;
+	padding:10px;
+	font-size:16px;
+	font-weight:700;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+}
+
+.admin-actContainer-delMenuButton:hover {
+	background-color:#696969;
+}
+
+.admin-actContainer-SaveMenuButton,.adminSites-actContainer-SaveMenuButton,.adminContent-actContainer-SaveMenuButton,.adminTagonomy-actContainer-SaveMenuButton,.adminUser-actContainer-SaveMenuButton,.adminRoles-actContainer-SaveMenuButton {
+	background-color:#3d3d3d;
+	position:fixed;
+	margin-top:133px;
+	margin-left:-100px;
+	width:50px;
+	height:25px;
+	z-index:10001;
+	padding:10px;
+	font-size:16px;
+	font-weight:700;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+}
+
+.admin-actContainer-SaveMenuButton:hover,.adminSites-actContainer-SaveMenuButton:hover,.adminContent-actContainer-SaveMenuButton:hover,.adminTagonomy-actContainer-SaveMenuButton:hover,.adminUser-actContainer-SaveMenuButton:hover,.adminRoles-actContainer-SaveMenuButton:hover {
+	border-left-color:#ececec;
+	border-bottom-color:#ececec;
+	border-top-color:#ececec;
+	border-left-width:1px;
+	border-left-style:solid;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-bottom-width:1px;
+	border-top-width:1px;
+	background-color:#f8f8f8;
+}
+
+.uploadAnything {
+	padding-left:5px;
+}
+
+.admin-popUpMenu table {
+	border-collapse:collapse;
+	width:100%;
+	padding-bottom:30px;
+}
+
+.admin-tableExtendedView {
+	height:40px;
+}
+
+.admin-popUpMenu table thead tr {
+	border-color:#929292;
+	border-top-width:3px;
+	border-top-style:solid;
+	border-bottom-width:3px;
+	border-bottom-style:solid;
+	font-size:13px;
+	font-weight:700;
+}
+
+.admin-popUpMenu table tbody tr {
+	border-bottom-color:#b2b2b2;
+	border-top-color:#b2b2b2;
+	border-bottom-width:1px;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-top-width:1px;
+}
+
+.admin-draggableHandler {
+	cursor:-webkit-grab;
+	cursor:grab;
+	cursor:-moz-grab;
+}
+
+.admin-sortableTable {
+	height:42px;
+	background-color:#ff0;
+	width:100%;
+}
+
+.admin-popUpMenu table td {
+	padding:10px;
+}
+
+.admin-checkBox {
+	width:10px;
+}
+
+.admin-popUpHeader {
+	text-shadow:0 1px #fff;
+	font-size:24px;
+	font-weight:700;
+	float:left;
+	padding-bottom:25px;
+}
+
+.admin-popUpHeaderAction {
+	float:right;
+}
+
+input[type="text"].admin-inputInherit {
+	background-color:inherit;
+	border:0 none;
+	outline:none;
+}
+
+.admin-inputInherit {
+	background-color:inherit;
+	border:0 none;
+	outline:none;
+	width:90%;
+}
+
+.admin-inputInheritPassword {
+	background-color:inherit;
+	border:0 none;
+	outline:none;
+	width:90%;
+	font-size:10px;
+	font-style:italic;
+	color:#cdcdcd;
+}
+
+.admin-inputInheritPasswordActive {
+	background-color:inherit;
+	border:0 none;
+	outline:none;
+	width:90%;
+	font-size:11px;
+	font-style:normal;
+	color:#000;
+}
+
+.myStyle {
+	width:100%;
+}
+
+.draggableMenu {
+	background-color:#f8f8f8;
+	width:95%;
+}
+
+#contentPlace {
+	clear:both;
+	width:100%;
+}
+
+#textAreaContent {
+	width:100%;
+	min-height:300px;
+	padding:20px;
+	border-color:#bcbcbc;
+	border-width:1px;
+	border-style:solid;
+	padding:20px;
+}
+
+.adminContentHeader {
+	width:100%;
+	border:1px solid #c4c4c4;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	margin-right:10px;
+}
+
+.newContentTable {
+	padding:5px;
+}
+
+.adminContentList {
+	cursor:pointer;
+}
+
+#theNicPanel {
+	width:99.2%;
+	margin-left:4px;
+}
+
+#nicPanel {
+	width:99.5%;
+	margin-bottom:20px;
+}
+
+#admin-fileContent {
+	margin-top:10px;
+	border-collapse:collapse;
+	width:100%;
+	margin-left:5px;
+}
+
+#admin-fileContent tr {
+	border-top:1px solid #dadada;
+	border-bottom:1px solid #dadada;
+}
+
+.image-floatLeft,.image-floatLeftLink {
+	float:left;
+	clear:left;
+	margin-right:5px;
+}
+
+.admin-menuChooserContainer,.admin-languageSelect,.admin-jumpPageContainer {
+	float:right;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.admin-paggingContainer {
+	float:left;
+}
+
+.nicEdit-selected {
+	outline:none;
+}
+
+.adminTablePopUpCapsuleApp {
+	float:right;
+	cursor:pointer;
+}
+
+.admin-metadata-container {
+	background-color:#f4f4f4;
+	z-index:9999999;
+	border:1px solid #949494;
+	padding:5px;
+	position:absolute;
+	-moz-box-shadow:0 0 7px #202020;
+	-webkit-box-shadow:0 0 7px #202020;
+	box-shadow:0 0 7px #202020;
+}
+
+.admin-administrator-action {
+	text-align:right;
+}
+
+.admin-administrator-itemDetailAdder,.admin-administrator-itemAddonAdder {
+	padding:2px;
+	background-color:#2a4fb5;
+	margin-right:5px;
+	height:10px;
+	width:10px;
+}
+
+.admin-administrator-itemDetailAdder:hover,.admin-administrator-itemAddonAdder:hover {
+	background-color:#8297d1;
+}
+
+.admin-administrator-itemDetailDeler,.admin-administrator-itemAddonDeler {
+	padding:2px;
+	background-color:#b52929;
+	height:10px;
+	width:10px;
+}
+
+.admin-administrator-itemDetailDeler:hover,.admin-administrator-itemAddonDeler:hover {
+	background-color:#d18282;
+}
+
+.childMenu {
+	float:left;
+}
+
+.form-horizontal .administrator-label {
+	width:80px;
+}
+
+.form-horizontal .administrator-controls {
+	margin-left:100px;
+}
+
+.administrator-checkbox {
+	margin:5px;
+}
+
+select.administrator-select-global-site-user,select.administrator-select-global-site-menu {
+	width:100%;
+}
+
+.admin-second-actionbar {
+	padding-top:15px;
+	padding-bottom:0;
+	border-top:3px solid grey;
+}
+
+.pagination {
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.admin-menu-class {
+	width:110px;
+}
+
+.admin-hr-class {
+	border-top:3px solid grey;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	margin-top:0;
+	padding-bottom:10px;
+}

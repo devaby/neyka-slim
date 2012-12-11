@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Your Message Subject or Title</title>
+	<style type="text/css">
+		/* Based on The MailChimp Reset INLINE: Yes. */  
+		/* Client-specific Styles */
+		#outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+		body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif;} 
+		/* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/ 
+		.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */  
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+		/* Forces Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */ 
+		#backgroundTable {margin:0 auto; padding:0; width:648px !important; background-color:#b9cad6; line-height: 100% !important;}
+		/* End reset */
+
+		/* Some sensible defaults for images
+		Bring inline: Yes. */
+		img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;} 
+		a img {border:none;} 
+		.image_fix {display:block;}
+
+		/* Yahoo paragraph fix
+		Bring inline: Yes. */
+		p {margin: 0em 0; font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #8b8b8b; line-height:18px;}
+
+		/* Hotmail header color reset
+		Bring inline: Yes. */
+		h1, h2, h3, h4, h5, h6 {color: #8b8b8b !important; margin:0;  -webkit-margin-before: 0em; -webkit-margin-after: 0em;}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: blue !important;}
+
+		h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+		color: red !important; /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+		}
+
+		h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+		color: purple !important; /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+		}
+
+		/* Outlook 07, 10 Padding issue fix
+		Bring inline: No.*/
+		table td {border-collapse: collapse !important;}
+
+		/* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email and make sure to bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+		Bring inline: Yes. */
+		a {color: #666;}
+
+		/* Some Styles */
+		
+		h1 { font-size:18px;}
+		h3 {font-size:16px;}
+
+
+		/***************************************************
+		****************************************************
+		MOBILE TARGETING
+		****************************************************
+		***************************************************/
+		@media only screen and (max-device-width: 480px) {
+			/* Part one of controlling phone number linking for mobile. */
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: blue; /* or whatever your want */
+						pointer-events: none;
+						cursor: default;
+					}
+
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: orange !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+
+		}
+
+		/* More Specific Targeting */
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		/* You guessed it, ipad (tablets, smaller screens, etc) */
+			/* repeating for the ipad */
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: blue; /* or whatever your want */
+						pointer-events: none;
+						cursor: default;
+					}
+
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: orange !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+		/* Put your iPhone 4g styles in here */ 
+		}
+
+		/* Android targeting */
+		@media only screen and (-webkit-device-pixel-ratio:.75){
+		/* Put CSS for low density (ldpi) Android layouts in here */
+		}
+		@media only screen and (-webkit-device-pixel-ratio:1){
+		/* Put CSS for medium density (mdpi) Android layouts in here */
+		}
+		@media only screen and (-webkit-device-pixel-ratio:1.5){
+		/* Put CSS for high density (hdpi) Android layouts in here */
+		}
+		/* end Android targeting */
+
+	</style>
+
+	<!-- Targeting Windows Mobile -->
+	<!--[if IEMobile 7]>
+	<style type="text/css">
+	
+	</style>
+	<![endif]-->   
+
+	<!-- ***********************************************
+	****************************************************
+	END MOBILE TARGETING
+	****************************************************
+	************************************************ -->
+
+	<!--[if gte mso 9]>
+		<style>
+		/* Target Outlook 2007 and 2010 */
+		</style>
+	<![endif]-->
+</head>
+<body bgcolor="#b9cad6" style="background-color:#b9cad6; color:#8b8b8b;">
+<!-- Wrapper/Container Table: Use a wrapper table to control the width and the background color consistently of your email. Use this approach instead of setting attributes on the body tag. -->
+<!-- Start Background Table -->
+<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" align="center" style="background-color:#b9cad6; color:#8b8b8b; width: 100%;">
+	<tr>
+    	<!-- Party Begins -->
+		<td valign="top"> 
+                
+        <!-- 20px Vertical Spacing -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td height="20"></td>
+            </tr>
+        </table>
+        <!-- 20px Vertical Spacing -->
+        
+        <!-- Header Masthead -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+            	<td>
+                    <table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+                    	<tr>
+                            <td width="19" align="left"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/header-top_left-corner.png" alt="Your alt text" width="20" height="26" border="0" /></td>
+                            <td width="610">
+                                <table width="610" cellpadding="0" cellspacing="0" border="0" align="left"  style="background:#fdfdfd;">
+                                    <!-- View it in your browser Link -->
+                                    <td height="26" align="right" valign="middle"><p style="font-size:8px; color:#aaa;">Email not displaying correctly?  <a href="Full Path to Mio" style="color:#888; text-decoration:none;" target ="_blank">View it in your browser</a>.</p></td>
+                                </table>
+                            </td>
+                            <td width="19" align="right"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/header-top_right-corner.png" alt="Your alt text" width="20" height="26" border="0" /></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+            	<td height="1" valign="bottom" style="background:#fdfdfd;"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/header-top_divider.png" alt="Your alt text" width="648" height="1" border="0" /></td>
+            </tr>
+        </table>
+        <!-- Header Masthead -->
+        
+        <!-- Header Main -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center" style="background:#fff;">
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <tr>
+            	<td>
+                <!-- Logo -->
+                    <table width="324" cellpadding="0" cellspacing="0" border="0" align="left">
+                    	<td width="8" align="left"></td>
+                        <!-- Here goes your logo icon -->
+                        <td width="21" align="left"><a href="http://www.shegaforex.com" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" style="display: block;" src="http://www.shegaforex.com/library/content/image/Logo/shegalogo.png" alt="Shegaforex Logo" width="124px" height="39px" border="0" /></a></td>
+                        <td width="3" align="left"></td>
+                        <!-- Here goes your logo text 
+                        <td width="183" align="left"><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/header-logo_logo.png" alt="Your alt text" width="183" height="31" border="0" /></a></td>
+                        <td width="97" align="left"></td>-->
+                    </table>
+                <!-- Logo -->
+                <!-- Date -->
+                    <table width="324" cellpadding="0" cellspacing="0" border="0" align="right">
+                    	<td width="207" align="right"></td>
+                        <!-- Here goes Month and Year 
+                        <td width="97" align="right"><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/header-date_april.gif" alt="Your alt text" width="97" height="31" border="0" /></a></td>-->
+                    	<td width="20" align="right"></td>
+                    </table>
+                <!-- Date -->
+                </td>
+            </tr>
+            <tr>
+              <td height="20"></td>
+            </tr>
+        </table>
+        <!-- Header Main -->
+        
+        <!-- Featured Chief -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center" style="background:#fff;">
+            <tr>
+            	<!-- here is the Featured Image and Button -->
+            	<td><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/featured-chief_orange.jpg" alt="Your alt text" width="648" height="327" border="0" /></a></td>
+            </tr>
+        </table>
+        <!-- Featured Chief -->
+        
+        <!-- Main Article Description -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center" style="background:#fff;">
+            <tr>
+              <td height="10"></td>
+            </tr>
+            <tr>
+            	<td>
+            	<!--
+                    <table width="326" cellpadding="0" cellspacing="0" border="0" align="left">
+                    	<tr>
+                            <td width="20" align="left"></td>
+                            <td width="306" align="left">
+                            	<!-- Here goes the picture of the Main Article Description 
+                            	<img class="image_fix" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/article-main_picture-layout3.jpg" alt="Your alt text" width="306" height="315" border="0" />
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    -->
+                    
+                    <table width="590" cellpadding="0" cellspacing="0" border="0" align="center">
+                    	<tr>
+                            <td width="590" align="center">
+                                <table width="590" cellpadding="0" cellspacing="0" border="0" align="center">
+                                    <tr>
+                                      <!-- Here goes the Title of the Description -->
+                                      <td align="center"><h1>Your Shegaforex Account Information</h1></td>
+                                    </tr>
+                                    <tr>
+                                      <td></td>
+                                    </tr>
+                                    <tr>
+                                    	<!-- This is the content of the Main Article -->
+                                    	<td align="justify"><p>Dear member, thank you for trusting Shegaforex as your number one forex broker. Below are the following information for your personal account, you can use it to access the member area on the Shegaforex website, make deposit and withdrawal using multiple payment gateway such as wire transfer, paypal and credit card. </p><p>We wish you to have a really pleasant trading experience with us. Happy trading.</p><p>account number : 9210921029</p><p>account password : 283928hssdj</p></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="20" align="center"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <!-- Main Article Description -->
+
+        
+        <!-- Rounded Bottom -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td height="20"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/rounded-bottom_bg.png" alt="Your alt text" width="648" height="20" border="0" /></td>
+            </tr>
+        </table>
+        <!-- Rounded Bottom -->
+        
+        <!-- 20px Vertical Spacing -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td height="20"></td>
+            </tr>
+        </table>
+        <!-- 20px Vertical Spacing -->
+        
+        <!-- Footer -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td height="19"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/footer-top_bg.png" alt="Your alt text" width="648" height="19" border="0" /></td>
+            </tr>
+            <!-- Info and Social -->
+            <tr style="background:#f7f7f7">
+            	<td>
+                    <table width="426" cellpadding="0" cellspacing="0" border="0" align="left" style="background:#f7f7f7;">
+                    	<tr>
+                        	<td width="20"></td>
+                            <!-- Here goes you logo icon… again -->
+                        	<td width="29"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/footer-logo_icon.png" alt="Your alt text" width="29" height="45" border="0" /></td>
+                            <td width="10"></td>
+                            <!-- You can put all the info about you company here -->
+                            <td width="367"><p style="font-size:11px; line-height:15px;">SHEGAFOREX<br />Victoria Mahe Seychelles<br />Help & Support Center: support@shegaforex.com</p></td>
+                        </tr>
+                    </table>
+                    <table width="222" cellpadding="0" cellspacing="0" border="0" align="right" style="background:#f7f7f7;">
+                    	<tr>
+                        	<td width="87" height="45" align="left"></td>
+                            <!-- Here goes the link to your Facebook account -->
+                        	<td width="32"><a href="http://www.facebook.com/pages/Shegaforex/238089772949703" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/footer-social_facebook.png" alt="Your alt text" width="32" height="32" border="0" /></a></td>
+                        	<td width="10" align="right"></td>
+                            <!-- Here goes the link to your Twitter account -->
+                        	<td width="32"><a href="https://twitter.com/shegaforex" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/footer-social_twitter.png" alt="Your alt text" width="32" height="32" border="0" /></a></td>
+                        	<td width="10" align="right"></td>
+                            <!-- Here goes the link to your RSS 
+                        	<td width="32"><a href="Full Path to Mio" style="color:#666; text-decoration:none;" target ="_blank"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/footer-social_rss.png" alt="Your alt text" width="32" height="32" border="0" /></a></td>
+                        	<td width="20" height="45" align="right"></td>-->
+                        </tr>
+                    </table>
+            	</td>
+            </tr>
+            <!-- Info and Social -->
+            <tr>
+              <td height="19"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/footer-divider_rounded-between.png" alt="Your alt text" width="648" height="32" border="0" /></td>
+            </tr>
+            <!-- Unsubscribe -->
+            <tr>
+            	<td>
+                    <table width="648" cellpadding="0" cellspacing="0" border="0" align="left" style="background:#f2f2f2;">
+                    	<tr>
+                        	<td width="20"></td>
+                            <!-- Atention! Here goes your UNSUBSCRIBE link -->
+                            <td width="620"><p style="font-size:10px; line-height:12px;">You have received this email because you have registered to shegaforex as a member<br />For futher information, plase go to our <a href="http://www.shegaforex.com" style="color:#666; text-decoration:none;" target ="_blank">shegaforex website</a>.</p></td>
+                        </tr>
+                    </table>
+            	</td>
+            </tr>
+            <!-- Unsubscribe -->
+            <tr>
+              <td height="20"><img class="image_fix" style="display: block;" src="http://192.168.0.1/rendi/framework/mail/template/premium/layout-3/images/footer-bottom_bg.png" alt="Your alt text" width="648" height="20" border="0" /></td>
+            </tr>
+        </table>
+        <!-- Footer -->
+            
+        <!-- 20px Vertical Spacing -->
+		<table width="648" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td height="20"></td>
+            </tr>
+        </table>
+        <!-- 20px Vertical Spacing -->
+            
+		</td>
+    	<!-- Party's Over -->
+	</tr>
+</table>  
+<!-- End Background Table -->
+</body>
+</html>

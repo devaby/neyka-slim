@@ -1,0 +1,110 @@
+.normal-logo {
+	position: absolute;
+	margin-left: 180px;
+	margin-top: -90px;
+}
+
+.normal-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.normal-username {
+	margin-top: 5px;
+	width: 300px;
+	margin-right: 10px;
+	outline: none;
+}
+
+.normal-password {
+	margin-top: 5px;
+	width: 300px;
+	outline: none;
+}
+
+.normal-submit {
+	width: 60px;
+	height: 25px;
+	padding-bottom: 3px;
+	margin-top: 15px;
+	float: right;
+	border: 1px solid #9d9d9d;
+    background-color: #e1e1e1;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    text-shadow: 0 1px 1px #ffffff;
+    font-weight: bold;
+}
+
+.normal-submit:active {
+	
+    -moz-box-shadow: inset 0 0 1px #8d8c8c;
+    -webkit-box-shadow: inset 0 0 1px #8d8c8c;
+    box-shadow: inset 0 0 1px #8d8c8c;
+}
+
+
+.normal-submit:hover {
+	-moz-box-shadow: inset 0 0 1px #8d8c8c;
+	-webkit-box-shadow: inset 0 0 1px #8d8c8c;
+	box-shadow: inset 0 0 1px #8d8c8c;
+}
+
+.form-horizontal-column {
+position: relative;
+padding: 3px 15px 0px;
+
+
+}
+
+.login-register-botton {
+	
+    width: 45px;
+    padding: 6px;
+    border: 1px solid #949494;   
+    background-color: #e1e1e1;
+    text-shadow: 0 1px 1px #ffffff;
+    -moz-border-radius:5px; 
+    -webkit-border-radius:5px; 
+    -khtml-border-radius:5px;
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    cursor: pointer;
+    background-image: linear-gradient(bottom, rgb(111,181,50) 47%, rgb(143,209,86) 74%);
+    background-image: -o-linear-gradient(bottom, rgb(111,181,50) 47%, rgb(143,209,86) 74%);
+    background-image: -moz-linear-gradient(bottom, rgb(111,181,50) 47%, rgb(143,209,86) 74%);
+    background-image: -webkit-linear-gradient(bottom, rgb(111,181,50) 47%, rgb(143,209,86) 74%);
+    background-image: -ms-linear-gradient(bottom, rgb(111,181,50) 47%, rgb(143,209,86) 74%);
+    background-image: -webkit-gradient(
+    	linear,
+    	left bottom,
+    	left top,
+    	color-stop(0.47, rgb(111,181,50)),
+    	color-stop(0.74, rgb(143,209,86))
+    );
+   
+}
+
+.login-register-botton:hover {
+	
+    width: 45px;
+    padding: 6px;
+    border: 1px solid #949494;   
+    background-color: #e1e1e1;
+    text-shadow: 0 1px 1px #ffffff;
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    cursor: pointer;
+	-moz-box-shadow:  0 0 1px #8d8c8c;
+	-webkit-box-shadow: 0 0 1px #8d8c8c;
+	box-shadow:  0 0 1px #8d8c8c;
+}
+
+
+.forgot a:link{
+
+}
+
+.login-wraper
+
+
+
+

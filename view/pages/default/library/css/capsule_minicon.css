@@ -1,0 +1,68 @@
+#minicon-content-textarea {
+	border: 1px solid #e7e7e7;
+	min-height: 50px;
+}
+
+.minicon-content-main {
+	padding: 10px;
+	background-color: #f3f3f3;
+	border: 1px solid #ddd;
+}
+
+.minicon-tab-content {
+	overflow: hidden;
+}
+
+.minicon-content-action-ul {
+	padding: 0;
+	margin: 0;
+}
+
+.minicon-content-action-li {
+	float: left;
+	text-decoration: none;
+	list-style: none;
+}
+
+input[type="text"].minicon-content-input {
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	width: 98.3%;
+}
+
+textarea.minicon-content-textarea {
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	width: 98.3%;
+}
+
+input[type="text"].minicon-content-input-small {
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	width: 50%;
+	margin-right: 10px;
+}
+
+select.minicon-content-select {
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	width: 400px;
+}
+
+textarea.minicon-content-textarea {
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	width: 98.3%;
+}
+
+.minicon-line {
+	border-bottom: 1px solid #ddd;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}

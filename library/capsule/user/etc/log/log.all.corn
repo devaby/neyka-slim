@@ -1,0 +1,116 @@
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:31 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:31 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:32 By guest -- sites id failed to create, reason: Kuswadi,id,locahost,kuswadi,1,33,SUB DOMAIN,2012-11-24 11:58:31
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:32 By guest -- sites id failed to create, reason: Kuswadi,id,locahost,kuswadi,1,33,SUB DOMAIN,2012-11-24 11:58:31
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:32 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:32 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:33 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:33 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:33 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:33 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:34 By guest -- sites id failed to create, reason: Dadang Rukmana,id,locahost,dadang-rukmana,1,33,SUB DOMAIN,2012-11-24 11:58:33
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:34 By guest -- sites id failed to create, reason: Dadang Rukmana,id,locahost,dadang-rukmana,1,33,SUB DOMAIN,2012-11-24 11:58:33
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:34 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:34 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:35 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:35 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:36 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:36 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:36 By guest -- sites id failed to create, reason: Abdul Rodjak,id,locahost,abdul-rodjak,1,33,SUB DOMAIN,2012-11-24 11:58:36
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:36 By guest -- sites id failed to create, reason: Abdul Rodjak,id,locahost,abdul-rodjak,1,33,SUB DOMAIN,2012-11-24 11:58:36
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:37 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:37 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:37 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:37 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:37 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:37 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:38 By guest -- sites id failed to create, reason: Yudarfis,id,locahost,yudarfis,1,33,SUB DOMAIN,2012-11-24 11:58:37
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:38 By guest -- sites id failed to create, reason: Yudarfis,id,locahost,yudarfis,1,33,SUB DOMAIN,2012-11-24 11:58:37
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:38 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:38 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:39 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:39 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:39 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:39 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:40 By guest -- sites id failed to create, reason: Agus Wahyudi,id,locahost,agus-wahyudi,1,33,SUB DOMAIN,2012-11-24 11:58:39
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:40 By guest -- sites id failed to create, reason: Agus Wahyudi,id,locahost,agus-wahyudi,1,33,SUB DOMAIN,2012-11-24 11:58:39
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:41 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:41 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:41 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:41 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:42 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:42 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:42 By guest -- sites id failed to create, reason: Turmuji,id,locahost,turmuji,1,33,SUB DOMAIN,2012-11-24 11:58:42
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:42 By guest -- sites id failed to create, reason: Turmuji,id,locahost,turmuji,1,33,SUB DOMAIN,2012-11-24 11:58:42
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:42 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:42 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:43 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:43 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:43 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:43 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:44 By guest -- sites id failed to create, reason: Dadang Suyatno,id,locahost,dadang-suyatno,1,33,SUB DOMAIN,2012-11-24 11:58:43
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:44 By guest -- sites id failed to create, reason: Dadang Suyatno,id,locahost,dadang-suyatno,1,33,SUB DOMAIN,2012-11-24 11:58:43
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:44 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:44 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:45 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:45 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:45 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:45 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:46 By guest -- sites id failed to create, reason: Udjang Sugandi,id,locahost,udjang-sugandi,1,33,SUB DOMAIN,2012-11-24 11:58:45
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:46 By guest -- sites id failed to create, reason: Udjang Sugandi,id,locahost,udjang-sugandi,1,33,SUB DOMAIN,2012-11-24 11:58:45
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:46 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:46 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:46 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:46 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:47 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:47 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:47 By guest -- sites id failed to create, reason: Sulaeman,id,locahost,sulaeman,1,33,SUB DOMAIN,2012-11-24 11:58:47
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:47 By guest -- sites id failed to create, reason: Sulaeman,id,locahost,sulaeman,1,33,SUB DOMAIN,2012-11-24 11:58:47
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:47 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:47 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:47 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:47 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:47 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:47 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:47 By guest -- sites id failed to create, reason: Pendi Efendi,id,locahost,pendi-efendi,1,33,SUB DOMAIN,2012-11-24 11:58:47
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:47 By guest -- sites id failed to create, reason: Pendi Efendi,id,locahost,pendi-efendi,1,33,SUB DOMAIN,2012-11-24 11:58:47
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:48 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:48 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:48 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:48 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:48 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:48 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:48 By guest -- sites id failed to create, reason: Dedi Suheryadi,id,locahost,dedi-suheryadi,1,33,SUB DOMAIN,2012-11-24 11:58:48
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:48 By guest -- sites id failed to create, reason: Dedi Suheryadi,id,locahost,dedi-suheryadi,1,33,SUB DOMAIN,2012-11-24 11:58:48
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:48 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:48 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:49 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:49 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:49 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:49 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:49 By guest -- sites id failed to create, reason: Ira Andrian,id,locahost,ira-andrian,1,33,SUB DOMAIN,2012-11-24 11:58:49
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:49 By guest -- sites id failed to create, reason: Ira Andrian,id,locahost,ira-andrian,1,33,SUB DOMAIN,2012-11-24 11:58:49
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:49 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:49 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:49 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:49 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:49 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:49 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:49 By guest -- sites id failed to create, reason: Senen Wahyudiono,id,locahost,senen-wahyudiono,1,33,SUB DOMAIN,2012-11-24 11:58:49
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:49 By guest -- sites id failed to create, reason: Senen Wahyudiono,id,locahost,senen-wahyudiono,1,33,SUB DOMAIN,2012-11-24 11:58:49
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:49 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:49 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:49 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:49 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:50 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:50 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:50 By guest -- sites id failed to create, reason: Sarijo,id,locahost,sarijo,1,33,SUB DOMAIN,2012-11-24 11:58:50
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:50 By guest -- sites id failed to create, reason: Sarijo,id,locahost,sarijo,1,33,SUB DOMAIN,2012-11-24 11:58:50
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:51 By guest -- user id failed to create, reason: 
+All log: model.php:170 model::integrasiData 24:11:2012-11:58:51 By guest -- user id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:51 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:51 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:51 By guest -- role combine id failed to create, reason: 
+All log: model.php:190 model::integrasiData 24:11:2012-11:58:51 By guest -- role combine id failed to create, reason: 
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:51 By guest -- sites id failed to create, reason: Iim Rochimat,id,locahost,iim-rochimat,1,33,SUB DOMAIN,2012-11-24 11:58:51
+All log: model.php:151 model::integrasiData 24:11:2012-11:58:51 By guest -- sites id failed to create, reason: Iim Rochimat,id,locahost,iim-rochimat,1,33,SUB DOMAIN,2012-11-24 11:58:51

@@ -1,0 +1,413 @@
+.subject_account-container{
+	padding: 10px	
+}
+
+.border-bottom{
+	border-bottom:  1px solid #4c4c4c;
+}
+.div-link{
+	
+}
+
+/* Owner's CSS */
+
+dd {
+	padding: 0;
+	margin: 0;
+}
+
+.container-fluid.blue {
+  margin-top: -20px;
+  background-color: #49AFCD;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.container-fluid.blue h3 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.table td.table-valign-middle {
+	vertical-align: middle;
+}
+
+.table td.table-align-left {
+	text-align: left;
+}
+
+.table td.table-align-middle {
+	text-align: center;
+}
+
+.table td.table-align-right {
+	text-align: right;
+}
+
+.table input.input-align-right {
+	text-align: right;
+}
+
+.table thead.table-header-blue-transaction {
+	background-color: #cfebfa;
+}
+
+.table thead.table-header-grey-transaction {
+	background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+}
+
+.table thead.table-header-blue,
+.table tbody.table-header-blue,
+.table tfoot.table-header-blue {
+	background-color: #eff4f8;
+}
+
+.table thead.table-header-bold,
+.table tbody.table-header-blue,
+.table tfoot.table-header-blue {
+	font-weight: bold;
+}
+
+.input-form {
+	margin: 0;
+}
+
+.small-font {
+	font-size: 12px;
+}
+
+.bold-small {
+	font-weight: bold;
+}
+
+.control-label-form {
+	margin: 0;
+}
+
+.accounting-form_createCoa-leftForm,
+.accounting-form_updateCoa-leftForm,
+.accounting-form_createItem-leftForm,
+.accounting-form_updateItem-leftForm {
+	border-right: 1px solid #eee;
+}
+
+.accounting-form_createCoa-selectContainer,
+.accounting-form_updateCoa-selectContainer,
+.accounting-form_createItem-selectContainer,
+.accounting-form_updateItem-selectContainer {
+	margin-bottom: 21px;
+}
+
+.accounting-form_createCoa-bankAccount {
+	display: none;
+}
+
+#accounting-form_createCoa-form, 
+#accounting-form_updateCoa-form,
+#accounting-form_createItem-form,
+#accounting-form_updateItem-form, {
+	padding-left: 13px;
+	padding-right: 0px;
+	width: 100%;
+}
+
+#myModalLabel {
+	color:#fff;
+}
+
+.accounting-other-charge-exist {
+	display: none;
+}
+
+#accounting-table_transaction-table .nav-tabs {
+	font-size: 12px;
+}
+
+#accounting-form_invoice_controller-form,
+#accounting-form_bill_controller-form,
+#accounting-form_receipt_controller-form,
+#accounting-form_salesreceipt_controller-form,
+#accounting-form_transfer_controller-form,
+#accounting-form_payment_controller-form,
+#accounting-form_paybill_controller-form  {
+    margin: 0px;
+}
+
+.accounting-form_invoice_controller-formContainer,
+.accounting-form_bill_controller-formContainer,
+.accounting-form_receipt_controller-formContainer,
+.accounting-form_salesreceipt_controller-formContainer,
+.accounting-form_transfer_controller-formContainer,
+.accounting-form_payment_controller-formContainer,
+.accounting-form_paybill_controller-formContainer {
+	min-height: 150px;
+	background-color: #E8F1FF;
+	padding-top: 20px;
+	border: 1px solid #dbdbdb;
+}
+
+.accounting-form_invoice_controller-formViewContainer,
+.accounting-form_bill_controller-formViewContainer,
+.accounting-form_receipt_controller-formViewContainer,
+.accounting-form_salesreceipt_controller-formViewContainer,
+.accounting-form_transfer_controller-formViewContainer,
+.accounting-form_payment_controller-formViewContainer,
+.accounting-form_paybill_controller-formViewContainer {
+	min-height: 150px;
+	background-color: #ffffff;
+	padding-top: 20px;
+	border: 1px solid #dbdbdb;
+}
+
+.accounting-table-tr-type-one {
+	border-bottom: 1px solid #d5d5d5;
+}
+
+.accounting-table-tr-type-one-hidden {
+	border-bottom: 1px solid #d5d5d5;
+	display: none;
+}
+
+table.accounting-transaction-table,
+table.accounting-transaction-table-payment,
+table.accounting-transaction-table-non-sortable {
+	width: 1110px;
+	font-size: 11px;
+	border: 1px solid #d5d5d5;
+}
+
+table.accounting-transaction-table tbody td,
+table.accounting-transaction-table-payment tbody td,
+table.accounting-transaction-table-non-sortable tbody td {
+	background-color: white;
+}
+
+table.accounting-transaction-table tfoot td,
+table.accounting-transaction-table-payment tfoot td,
+table.accounting-transaction-table-non-sortable tfoot td {
+	background-color: white;
+	font-weight: bold;
+	padding: 3px;
+}
+
+td.accounting-table-td-type-one {
+	border-right: 1px solid #d5d5d5;
+	padding: 0;
+}
+
+td.accounting-table-td-type-two {
+	border-right: 1px solid #d5d5d5;
+	padding: 0;
+}
+
+td.accounting-table-td-type-five {
+	padding: 0;
+}
+
+td.accounting-table-td-type-three {
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+
+td.accounting-table-td-type-last {
+	padding-top: 4px;
+	padding-bottom: 0px;
+	background-color: #f3f7ff !important; 
+}
+
+td.accounting-table-td-type-six {
+	border-right: 1px solid #d5d5d5;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+td.accounting-table-td-align-left {
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;
+}
+
+td.accounting-table-td-align-center {
+	text-align: center;
+	padding-left: 7px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;
+}
+
+td.accounting-table-td-align-right {
+	text-align: right;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;
+}
+
+input[type="text"].accounting-table-input-type-one {
+	border: none;
+	background-color: white;
+	box-shadow: none;
+	outline: none;
+	margin-bottom: 0;
+	width: 100px;
+	font-size: 11px;
+	border-radius: 0;
+}
+
+input[type="text"].accounting-table-input-type-two {
+	border: none;
+	background-color: white;
+	box-shadow: none;
+	outline: none;
+	margin-bottom: 0;
+	width: 205px;
+	font-size: 11px;
+	border-radius: 0;
+}
+
+input[type="text"].accounting-table-input-type-three {
+	border: none;
+	background-color: white;
+	box-shadow: none;
+	outline: none;
+	margin-bottom: 0;
+	width: 150px;
+	font-size: 11px;
+	border-radius: 0;
+}
+
+input[type="text"].accounting-table-input-type-four {
+	border: none;
+	background-color: #f3f7ff;
+	box-shadow: none;
+	outline: none;
+	margin-bottom: 0;
+	width: 100px;
+	font-size: 11px;
+	border-radius: 0;
+}
+
+input[type="text"].accounting-table-input-type-five {
+	border: none;
+	background-color: white;
+	box-shadow: none;
+	outline: none;
+	margin-bottom: 0;
+	width: 440px;
+	font-size: 11px;
+	border-radius: 0;
+}
+
+input[type="text"].accounting-table-input-type-six {
+	border: none;
+	background-color: white;
+	box-shadow: none;
+	outline: none;
+	margin-bottom: 0;
+	width: 200px;
+	font-size: 11px;
+	border-radius: 0;
+}
+
+input[type="text"].accounting-table-input-type-seven {
+	border: none;
+	background-color: white;
+	box-shadow: none;
+	outline: none;
+	margin-bottom: 0;
+	width: 500px;
+	font-size: 11px;
+	border-radius: 0;
+}
+
+input[type="text"].accounting-table-input-type-eight {
+	border: none;
+	background-color: white;
+	box-shadow: none;
+	outline: none;
+	margin-bottom: 0;
+	width: 95%;
+	font-size: 11px;
+	border-radius: 0;
+}
+
+.ui-autocomplete-category {
+    font-weight: bold;
+    padding: .2em .4em;
+    margin: .8em 0 .2em;
+    line-height: 1.5;
+}
+
+.ui-autocomplete {
+        max-height: 200px;
+        min-width: 150px;
+        overflow-y: auto;
+        /* prevent horizontal scrollbar */
+        overflow-x: hidden;
+    }
+    /* IE 6 doesn't support max-height
+     * we use height instead, but this forces the menu to always be this tall
+     */
+    * html .ui-autocomplete {
+        height: 200px;
+}
+
+.default-control {
+	float: left;
+	margin-left: 30px;
+}
+
+.default-control-right {
+	float: right;
+	margin-right: 32px;
+}
+
+.accounting-action-final-container {
+	margin: 0px;
+	width: 1135px;
+	position: relative;
+	overflow: auto;
+}
+
+.accounting-action-final {
+	margin: 0px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #CFEBFA;
+	position: relative;
+	overflow: auto;
+	border-top: 1px solid #e2e2e2;
+}
+
+#accounting-form_invoice_controller-form {
+	margin-bottom: 0px !important; 
+}
+
+.default-control-form-final {
+	margin-left: 10px;
+}
+
+.accounting-clickable {
+	cursor: pointer;
+}
+
+.span-accounting-view-header {
+	width: 165px;
+}

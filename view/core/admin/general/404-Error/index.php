@@ -1,0 +1,1 @@
+<div>Oops Halaman yang anda cari tidak ada. Kembali ke <a href="<?php echo "index.php" ?>">beranda?</a></div>

@@ -1,0 +1,2960 @@
+
+.layan-normal-form-container {
+	padding: 15px;
+	min-height: 500px;
+}
+
+.layan-normal-header-div {
+	margin-left: 5px;
+	width: 98%;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.layan-normal-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.layan-normal-table td {
+	padding: 5px;
+}
+
+.layan-normal-table-vertical-align {
+	vertical-align: top;
+}
+
+.layan-normal-form-hr {
+	border-left: 0px solid #949494;
+	border-right: 0px solid #949494;
+	border-top: 0px solid #949494;
+	border-bottom: 1px solid #ababab;
+	text-shadow: #f0f0f0;
+}
+
+.layan-normal-form-hr2 {
+	border-left: 0px solid #c1c1c1;
+	border-right: 0px solid #c1c1c1;
+	border-top: 0px solid #c1c1c1;
+	border-bottom: 1px solid #dfdfdf;
+	text-shadow: #f0f0f0;
+}
+
+.layan-normal-form-hide {
+	display: none;
+}
+
+.layan-normal-form-td1st {
+	width: 230px;
+	font-size: 13px;
+}
+
+.layan-normal-form-td2st {
+	width: 17px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.layan-normal-form-td3st {
+	width: 250px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.layan-normal-form-font12 {
+	font-size: 13px;
+}
+
+input[type="text"].layan-normal-form-input, input[type="text"].layan-dokumen-textarea {
+	width: 97%;
+	outline: none;
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+	background-image: -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -ms-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	border: 1px solid #aaa;
+	margin: 0;
+	padding: 4px;
+	cursor: text;
+	overflow: hidden;
+	height: auto !important;
+	height: 1%;
+	position: relative;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	width: 97%;
+	font-size: 12px;
+}
+
+input[type="text"].layan-normal-form-input-date {
+	width: 97%;
+	outline: none;
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+	background-image: -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -ms-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	border: 1px solid #aaa;
+	margin: 0;
+	padding: 4px;
+	cursor: text;
+	overflow: hidden;
+	height: auto !important;
+	height: 1%;
+	position: relative;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	width: 99%;
+	font-size: 12px;
+}
+
+
+input[type="text"].layan-normal-form-input:focus, input[type="text"].layan-normal-form-input-date:focus {
+	width: 97%;
+	outline: none;
+	border: 1px solid #7c955e;
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+	background-image: -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -ms-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	margin: 0;
+	padding: 4px;
+	cursor: text;
+	overflow: hidden;
+	height: auto !important;
+	height: 1%;
+	position: relative;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	width: 97%;
+	font-size: 12px;
+}
+
+.layan-normal-form-select {
+	width: 99%;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.layan-normal-table-multiple {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.layan-normal-table-multiple td {
+	padding: 5px;
+}
+
+.layan-normal-form-bold {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.layan-normal-plus-button,
+.layan-setting-plus-button {
+	background-image: url("../../view/pages/system/images/plus.png");
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	float: left;
+	margin-right: 5px;
+}
+
+.layan-normal-plus-button:hover,
+.layan-setting-plus-button:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-normal-plus-button:active,
+.layan-setting-plus-button:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-normal-minus-button,
+.layan-setting-minus-button {
+	background-image: url("../../view/pages/system/images/minus.png");
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	float: left;
+}
+
+.layan-normal-minus-button:hover,
+.layan-setting-minus-button:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-normal-minus-button:active,
+.layan-setting-minus-button:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-normal-inside-button {
+	background-image: url("../../view/pages/system/images/doc.png");
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	float: left;
+}
+
+.layan-normal-inside-button:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-normal-inside-button:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-normal-form-action-button {
+	text-align: right;
+}
+
+.layan-normal-table-tr-hover:hover {
+	background-color: #ececec;
+}
+
+.layan-processing-text {
+	padding-bottom: 10px;
+	font-size: 13px;
+	text-align: center;
+}
+
+.layan-processing {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 70px;
+	border: 1px solid #b5b5b5;
+	margin-top: -50px;
+	background-color: white;
+	padding: 30px;
+	-moz-border-radius: 0px 32px 0px 25px;
+	-webkit-border-radius: 0px 32px 0px 25px;
+	border-radius: 0px 32px 0px 25px;
+}
+
+.layan-permohonan-container,
+.layan-permohonan-container-2
+ {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	border: 1px solid #b5b5b5;
+	background-color: white;
+	padding: 30px;
+	margin-top: 50px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+
+.layan-permohonan-container-inside {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	border: 1px solid #b5b5b5;
+	background-color: white;
+	padding: 30px;
+	margin-top: 50px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border-radius: 0px 0px 0px 0px;	}
+
+.layan-permohonan-table {
+	width: 100%;
+}
+
+.layan-permohonan-td-header {
+	width: 235px;
+	vertical-align: text-top;
+}
+
+.layan-permohonan-main-header {
+	text-align: center;
+	border-bottom: 1px solid #5d5d5d;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.layan-permohonan-main-header-secondary, 
+.layan-permohonan-main-header-tertiary {
+	text-align: center;
+}
+
+.layan-permohonan-print-header-0 {
+     position: absolute;
+     left: 10px;
+}
+
+
+.layan-permohonan-print-header-1 {
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.layan-permohonan-print-header-2 {
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.layan-permohonan-print-header-3 {
+	padding-bottom: 0px;
+	font-size: 14px;
+}
+
+.layan-permohonan-print-tertiary {
+	font-weight: bold;
+	padding-bottom: 0px;
+}
+
+.layan-permohonan-print-fourtiary {
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.layan-permohonan-print-fifthiary {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.layan-permohonan-table-list {
+	border: 1px solid black;
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 13px;
+}
+
+.layan-permohonan-table-list td {
+	padding: 10px;
+}
+
+.layan-dashboard-left {
+	text-align: left;
+}
+
+.layan-dashboard-center {
+	text-align: center;
+}
+
+.layan-dashboard-right {
+	text-align: right;
+}
+.layan-permohonan-print {
+	margin-left: auto;
+	margin-right: auto;
+	width: 860px;
+	margin-top: 50px;
+	margin-bottom: -40px;
+	overflow-y: auto;
+}
+
+.layan-permohonan-back-button {
+	background-image: url("../../view/pages/system/images/back.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 36px;
+	height: 36px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	margin-right: 5px;
+	background-color: white;
+	float: left;
+}
+
+.layan-permohonan-back-button:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-permohonan-back-button:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-permohonan-print-button,
+.layan-permohonan-print-button-ex,
+.layan-pemberitahuan-print-button {
+	background-image: url("../../view/pages/system/images/print.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 36px;
+	height: 36px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	margin-right: 5px;
+	background-color: white;
+	float: left;
+}
+
+.layan-permohonan-print-button:hover,
+.layan-pemberitahuan-print-button:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-permohonan-print-button:active,
+.layan-pemberitahuan-print-button:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-permohonan-save-button {
+	background-image: url("../../view/pages/system/images/save.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 36px;
+	height: 36px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	margin-right: 5px;
+	background-color: white;
+	float: left;
+}
+
+.layan-permohonan-save-button:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-permohonan-save-button:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-document-container {
+	min-height: 200px;
+	border-bottom: 1px solid #000;
+}
+
+.layan-document-container-div {
+	min-height: 200px;
+}
+
+.layan-document-* {
+	cursor: default;
+}
+
+.layan-overview-container-search {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.layan-failed-result {
+	font-size: 12px;
+	text-align: center;
+}
+
+input[type="text"].layan-general-dashboard-input-search,
+input[type="text"].layan-general-dashboard-input-search-admin {
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+	background-image: -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -ms-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	border: 1px solid #aaa;
+	margin: 0;
+	padding: 8px 4px 8px 4px;
+	cursor: text;
+	overflow: hidden;
+	height: auto !important;
+	height: 1%;
+	position: relative;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	width: 242px;
+	font-size: 12px;
+	outline: none;
+}
+
+.layan-dashboard-box {
+	width: 250px;
+	border: 1px solid #d4d4d4;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	margin-bottom: 20px;
+	background-color: #fdfdfd;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-dashboard-box:hover {
+	-moz-box-shadow: 0px 0px 5px #467dbe;
+	-webkit-box-shadow: 0px 0px 5px #467dbe;
+	box-shadow: 0px 0px 5px #467dbe;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-dashboard-box-header {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.layan-dashboard-box-content {
+	display: none;
+	border-bottom: 1px solid #d4d4d4;
+	font-size: 12px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: #ececec;
+	-moz-box-shadow: inset 0px 0px 25px #c9c9c9;
+	-webkit-box-shadow: inset 0px 0px 25px #c9c9c9;
+	box-shadow: inset 0px 0px 25px #c9c9c9;
+}
+
+.layan-dashboard-box-content li {
+	color: dimgray;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #d3d3d3;
+	box-shadow: 0px 1px 0px #f1f1f1;
+	font-size: 11px;
+}
+
+.layan-dashboard-box-content li.layan-dashboard-lastLI {
+	color: dimgray;
+	text-decoration: none;
+	border-bottom: 0px solid #c3c3c3;
+	box-shadow: 0px 0px 0px #d3d3d3;
+}
+
+.layan-dashboard-box-content a:hover {
+	color: #818181;
+}
+
+.layan-dashboard-box-content ul {
+	margin: 0;
+	padding: 0;
+}
+
+.layan-dashboard-box-header-name {
+	font-size: 13px;
+	font-weight: normal;
+	border-bottom: 1px solid #d4d4d4;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 7px;
+	overflow-y: auto;
+}
+
+.layan-dashboard-box-header-name-left {
+	float: left;
+}
+
+.layan-ajax-loader {
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.layan-dashboard-box-header-name-right-arrow-down {
+	float: right;
+	cursor: pointer;
+	background-image: url("../../library/capsule/layan/images/arrow-down.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 16px;
+	height: 16px;
+	margin-top: 2px;
+}
+
+.layan-dashboard-box-header-set-delivered {
+	float: right;
+	cursor: pointer;
+	background-image: url("../../library/capsule/layan/images/check.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 16px;
+	height: 16px;
+	margin-top: 2px;
+}
+
+.layan-dashboard-box-header-name-right-document {
+	float: right;
+	cursor: pointer;
+	background-image: url("../../library/capsule/layan/images/document.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 16px;
+	height: 16px;
+	margin-top: 2px;
+	margin-right: 5px;
+}
+
+.layan-dashboard-box-header-document {
+	border-right: 1px solid #d4d4d4;
+	width: 67px;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 13px;
+	font-weight: normal;
+	float: left;
+}
+
+.layan-dashboard-box-header-name-header-container {
+	background-color: white;
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.layan-dashboard-box-header-document-header-left {
+	border-right: 1px solid #d4d4d4;
+	width: 107px;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 13px;
+	font-weight: normal;
+	float: left;
+}
+
+.layan-dashboard-box-header-document-header-right {
+	width: 112px;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 13px;
+	font-weight: normal;
+	float: left;
+}
+
+.layan-dashboard-box-header-document-last {
+	width: 67px;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 13px;
+	font-weight: normal;
+	float: left;
+}
+
+.layan-dashboard-box-header-document-bottom {
+	border-right: 1px solid #d4d4d4;
+	width: 46px;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 13px;
+	font-weight: normal;
+	float: left;
+}
+
+.layan-dashboard-box-header-document-bottom-end {
+	width: 46px;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 13px;
+	font-weight: normal;
+	float: left;
+}
+
+.layan-dashboard-box-header-document-end {
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 13px;
+	font-weight: normal;
+	float: left;
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	width: 100%;
+}
+
+.layan-dashboard-box-header-document-small,
+.layan-dashboard-box-header-document-large {
+	margin: 0;
+	padding: 0;
+	line-height: 15px;
+}
+
+.not-bold {
+	font-size: 11px;
+	font-weight: normal;
+	color: #898989;
+}
+
+.small-line-height {
+	margin: 0;
+}
+
+.right-align {
+	text-align: right;
+	font-size: 11px;
+	font-weight: normal;
+	color: #898989;
+}
+
+.layan-detailDokumen-container-header-name {
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	border-bottom: 1px solid #b0b0b0;
+	padding-bottom: 5px;
+	margin-bottom: 8px;
+	margin-left: -16px;
+	margin-right: -16px;
+	height: 26px;
+	overflow-x: auto;
+}
+
+.layan-detailDokumen-container-header-name-inside {
+	padding-left: 16px;
+	float: left;
+}
+
+.layan-detailDokumen-container-header-name-close {
+	float: right;
+	margin-right: 10px;
+	background-image: url("../../view/pages/system/images/close.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	background-color: white;
+	margin-top: -1px;
+}
+
+.layan-detailDokumen-container-header-document {
+	font-size: 13px;
+	font-weight: bold;
+	color: #626262;
+}
+
+.layan-detailDokumen-container-header-reason {
+	font-size: 12px;
+	color: #8f8f8f;
+	text-align: justify;
+	border-bottom: 1px solid #b0b0b0;
+	padding-bottom: 10px;
+	margin-left: -16px;
+	margin-right: -16px;
+}
+
+.layan-detailDokumen-container-header-reason-inside {
+	padding-left: 16px;
+	padding-right: 20px;
+}
+
+.layan-detailDokumen-container-header-action {
+	font-size: 12px;
+	color: #8f8f8f;
+	text-align: justify;
+	border-bottom: 1px solid #b0b0b0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 220px;
+	margin-left: -16px;
+	margin-right: -16px;
+	text-align: center;
+	overflow-y: auto;
+}
+
+.layan-detailDokumen-pemberitahuan-button {
+	background-image: url("../../view/pages/system/images/pemberitahuan.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-right: 10px;;
+	float: left;
+}
+
+.layan-detailDokumen-pemberitahuan-button:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-detailDokumen-pemberitahuan-button:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-detailDokumen-penolakan-button {
+	background-image: url("../../view/pages/system/images/penolakan.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-right: 10px;;
+	float: left;
+}
+
+.layan-detailDokumen-penolakan-button:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-detailDokumen-penolakan-button:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-detailDokumen-perpanjangan-button {
+	background-image: url("../../view/pages/system/images/perpanjangan.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-right: 10px;
+	float: left;
+}
+
+.layan-detailDokumen-perpanjangan-button:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-detailDokumen-perpanjangan-button:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-table-form-pemberitahuanTertulis {
+	width: 100%;
+	font-size: 12px;
+	padding: 3px;
+	border-collapse: collapse;
+}
+
+.layan-form-pemberitahuanTertulis {
+	font-size: 14px;
+	margin-top: 15px;
+	font-weight: bold;
+	margin-left: 5px;
+    margin-bottom: 10px;  	
+}
+.layan-table-form-pemberitahuanTertulis td {
+	 padding:5px;	
+}
+
+input[type="text"].layan-form-pemberitahuantertulis-input {
+	height: 15px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border: 1px solid #c5c5c5;
+	outline: medium none;
+	font-size: 12px;
+}
+
+input[type="text"].layan-form-pemberitahuantertulis-input-hari {
+	height: 15px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border: 1px solid #c5c5c5;
+	outline: medium none;
+	font-size: 12px;
+}
+
+.layan-table-tr-form-pemberitahuanTertulis-verticalAlign {
+	vertical-align: top;
+}
+
+.layan-td-form-pemberitahuanTertulisHeader {
+	width: 150px;
+}
+
+.layan-form-pemberitahuantertulis-input-textarea {
+	resize:none;
+}
+
+/*
+Untuk view counter
+*/
+
+.layan-counter-container-1 {
+	float: left;
+	border-right: 1px solid silver;
+	height: 100px;
+	width: 150px;
+}
+
+.layan-counter-container-1-inside {
+	padding-top: 32px;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.layan-counter-container-1-inside:hover,
+.layan-counter-container-2-inside:hover,
+.layan-counter-container-3-inside:hover,
+.layan-counter-container-4-inside:hover {
+
+}
+
+.layan-counter-container-1-insideBottom2 {
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 7px;
+}
+
+.layan-counter-container-2 {
+	float: left;
+	border-right: 1px solid silver;
+	height: 100px;
+	width: 150px;
+}
+
+.layan-counter-container-2-inside {
+	padding-top: 32px;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.layan-counter-container-2-insideBottom2 {
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 7px;
+}
+
+.layan-counter-container-3 {
+	float: left;
+	border-right: 1px solid silver;
+	height: 100px;
+	width: 150px;
+}
+
+.layan-counter-container-3-inside {
+	padding-top: 32px;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.layan-counter-container-3-insideBottom2 {
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 7px;
+}
+
+.layan-counter-container-4 {
+	float: left;
+	height: 100px;
+	width: 150px;
+}
+
+.layan-counter-container-4-inside {
+	padding-top: 32px;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.layan-counter-container-4-insideBottom2 {
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 7px;
+}
+
+.software-dashboard-right-container-history-header {
+	padding: 20px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+background: #aebcbf; /* Old browsers */
+background: -moz-linear-gradient(top,  #aebcbf 0%, #6e7774 50%, #0a0e0a 51%, #0a0809 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aebcbf), color-stop(50%,#6e7774), color-stop(51%,#0a0e0a), color-stop(100%,#0a0809)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%); /* IE10+ */
+background: linear-gradient(top,  #aebcbf 0%,#6e7774 50%,#0a0e0a 51%,#0a0809 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=0 ); /* IE6-9 */
+
+}
+
+.software-dashboard-right-container-history-menu {
+	padding: 10px;
+	border-bottom: 1px solid #cfcfcf;
+	overflow-y: hidden;
+	
+	-moz-box-shadow: 0px 2px 2px #d4d4d4;
+	-webkit-box-shadow: 0px 2px 2px #d4d4d4;
+	box-shadow: 0px 2px 2px #d4d4d4;
+	background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+.software-dashboard-right-container-history-menu li {
+	float: left;
+	margin-right: 39px;
+	margin-left: 9px;
+	font-size: 13px;
+}
+
+.software-dashboard-right-container-history-menu .menu-last {
+	float: left;
+	margin-right: 0;
+	margin-left: 9px;
+	font-size: 13px;
+}
+
+.software-dashboard-right-container-history-menu li a {
+	color: #a5a5a5;
+	text-shadow: 0px 1px 1px white;
+	text-decoration: none;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.software-dashboard-right-container-history-menu li a:hover {
+	color: #474747;
+	text-shadow: 0px 1px 1px white;
+	text-decoration: none;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.software-dashboard-right-container-history-menu ul#left-links {
+ 	margin: 0;
+ 	padding: 0;
+}
+
+.layan-id-float-left {
+	float: left;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.layan-id-float-right {
+	float: right;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.layan-icon-container {
+	width: 600px;
+	overflow-y: hidden;
+	padding-top: 8px;
+	float: left;
+}
+
+.layan-icon_admin-name-container {
+	float: right;
+	font-size: 12px;
+	margin-top: -5px;
+	margin-right: 10px;
+	color: #C8C8C8;
+	border-right: 1px solid #5b5b5b;
+	padding-right: 15px;
+	height: 47px;
+	overflow-y: hidden;
+}
+
+.layan-logout-container {
+	float: right;
+	font-size: 12px;
+	margin-top: -5px;
+	color: #C8C8C8;
+	border-right: 1px solid #5b5b5b;
+	margin-right: -10px;
+	padding-right: 20px;
+	padding-left: 10px;
+	height: 47px;
+	overflow-y: hidden;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-logout-container:hover {
+	color: white;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-new-home {
+	background-image: url("../../library/capsule/layan/images/home.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 74px;
+	height: 24px;
+	cursor: pointer;
+	margin-right: 15px;
+	float: left;
+	font-size: 12px;
+	padding-left: 23px;
+	line-height: 26px;
+	color: #c8c8c8;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-new-home:hover {
+	color: white;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-new-permohonan {
+	background-image: url("../../library/capsule/layan/images/notepad.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 74px;
+	height: 24px;
+	cursor: pointer;
+	margin-right: 25px;
+	float: left;
+	font-size: 12px;
+	padding-left: 23px;
+	line-height: 26px;
+	color: #c8c8c8;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-new-permohonan:hover {
+	color: white;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-new-dado {
+	background-image: url("../../library/capsule/layan/images/dado.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 54px;
+	height: 24px;
+	cursor: pointer;
+	margin-right: 15px;
+	float: left;
+	font-size: 12px;
+	padding-left: 23px;
+	line-height: 26px;
+	color: #c8c8c8;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-new-dado:hover {
+	color: white;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-new-setting {
+	background-image: url("../../library/capsule/layan/images/setting.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 74px;
+	height: 24px;
+	cursor: pointer;
+	margin-right: 25px;
+	float: left;
+	font-size: 12px;
+	padding-left: 23px;
+	line-height: 26px;
+	color: #c8c8c8;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-new-setting:hover {
+	color: white;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-new-order {
+	background-image: url("../../library/capsule/layan/images/cart.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 84px;
+	height: 24px;
+	cursor: pointer;
+	margin-right: 15px;
+	float: left;
+	font-size: 12px;
+	padding-left: 23px;
+	line-height: 26px;
+	color: #c8c8c8;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-new-order:hover {
+	color: white;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-cancel-order {
+	background-image: url("../../library/capsule/layan/images/reset.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 84px;
+	height: 24px;
+	cursor: pointer;
+	margin-right: 15px;
+	float: left;
+	font-size: 12px;
+	padding-left: 23px;
+	line-height: 26px;
+	color: #c8c8c8;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-cancel-order:hover {
+	color: white;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-new-orderPrint {
+	background-image: url("../../library/capsule/layan/images/print-grey.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 74px;
+	height: 24px;
+	cursor: pointer;
+	margin-right: 15px;
+	float: left;
+	font-size: 12px;
+	padding-left: 23px;
+	line-height: 26px;
+	color: #c8c8c8;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-new-orderPrint:hover {
+	color: white;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-library-order {
+	background-image: url("../../library/capsule/layan/images/book2.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 74px;
+	height: 24px;
+	cursor: pointer;
+	margin-right: 15px;
+	float: left;
+	font-size: 12px;
+	padding-left: 23px;
+	line-height: 26px;
+	color: #c8c8c8;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-icon-float-left-library-order:hover {
+	color: white;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-permohonan-upper-menu-container {
+	overflow: auto;
+	height: 30px;
+	width: 100%;
+}
+
+.layan-permohonan-icons-container {
+	margin-left: 5px;
+}
+
+.layan-permohonan-icons-container-right {
+	margin-right: 5px;
+	margin-top: 5px;
+	float: right;
+	font-weight: bold;
+
+}
+
+.layan-permohonan-float-left-edit-permohonan {
+	background-image: url("../../library/capsule/layan/images/edit.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-right: 10px;
+	float: left;
+}
+
+.layan-permohonan-float-left-edit-permohonan:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-permohonan-float-left-edit-permohonan:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-permohonan-float-left-delete-permohonan {
+	background-image: url("../../library/capsule/layan/images/delete.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-right: 10px;
+	float: left;
+}
+
+.layan-permohonan-float-left-delete-permohonan:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-permohonan-float-left-delete-permohonan:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-permohonan-float-left-print-permohonan {
+	background-image: url("../../library/capsule/layan/images/book.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-right: 10px;
+	float: left;
+}
+
+.layan-permohonan-float-left-print-permohonan:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-permohonan-float-left-print-permohonan:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+/*Admin pemberitahuan CSS*/
+
+.layan-admin_pemberitahuan-float-left-add-permohonan {
+	background-image: url("../../library/capsule/layan/images/add.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-right: 10px;
+	float: left;
+}
+
+.layan-admin_pemberitahuan-float-left-add-permohonan:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-admin_pemberitahuan-float-left-add-permohonan:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-admin_pemberitahuan-float-left-delete-permohonan,
+.layan-admin_pemberitahuan-float-left-edit-permohonan {
+	background-image: url("../../library/capsule/layan/images/edit.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-right: 10px;
+	float: left;
+}
+
+.layan-admin_pemberitahuan-float-left-delete-permohonan:hover,
+.layan-admin_pemberitahuan-float-left-edit-permohonan:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-admin_pemberitahuan-float-left-delete-permohonan:active,
+.layan-admin_pemberitahuan-float-left-edit-permohonan:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-admin_pemberitahuan-float-left-print-permohonan {
+	background-image: url("../../library/capsule/layan/images/delete.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-right: 10px;
+	float: left;
+}
+
+.layan-admin_pemberitahuan-float-left-print-permohonan:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-admin_pemberitahuan-float-left-print-permohonan:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-admin_sejarah-float-left-print-permohonan,
+.layan-pemberitahuan-float-left-print-pemberitahuan,
+.layan-penolakan-float-left-print-penolakan,
+.layan-admin_perpanjangan-float-left-print-perpanjangan,
+.layan-keberatan-float-left-print-keberatan,
+.layan-pemberitahuan-float-left-print-keberatan {
+	background-image: url("../../library/capsule/layan/images/print.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-right: 10px;
+	float: left;
+}
+
+
+
+.layan-admin_sejarah-float-left-print-permohonan:hover,
+.layan-pemberitahuan-float-left-print-pemberitahuan:hover,
+.layan-penolakan-float-left-print-penolakan:hover,
+.layan-perpanjangan-float-left-print-perpanjangan:hover,
+.layan-keberatan-float-left-print-keberatan:hover,
+.layan-pemberitahuan-float-left-print-keberatan:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-admin_sejarah-float-left-print-permohonan:active,
+.layan-pemberitahuan-float-left-print-pemberitahuan:active,
+.layan-penolakan-float-left-print-penolakan:active,
+.layan-perpanjangan-float-left-print-perpanjangan:active,
+.layan-keberatan-float-left-print-keberatan:active,
+.layan-pemberitahuan-float-left-print-keberatan:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+/*Admin pemberitahuan create CSS*/
+
+.layan-admin_pemberitahuan_create-float-left-edit-permohonan {
+	background-image: url("../../library/capsule/layan/images/navigate-left.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-right: 10px;
+	float: left;
+}
+
+.layan-admin_pemberitahuan_create-float-left-edit-permohonan:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-admin_pemberitahuan_create-float-left-edit-permohonan:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-admin_pemberitahuan_create-float-left-print-permohonan {
+	background-image: url("../../library/capsule/layan/images/book.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-right: 10px;
+	float: left;
+}
+
+.layan-admin_pemberitahuan_create-float-left-print-permohonan:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+}
+
+.layan-admin_pemberitahuan_create-float-left-print-permohonan:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-container {
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+	overflow: hidden;
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	background-color: #fffff8;
+}
+
+.layan-admin_pemberitahuan_create-dokumen {
+	width: 332px;
+	min-height: 300px;
+	float: left;
+}
+
+.layan-admin_pemberitahuan-dokumen-list {
+	font-size: 12px;
+	color:#828282;
+	cursor: pointer;
+	padding: 10px;
+	border-bottom: 1px solid #c9c9c9;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-admin_pemberitahuan-dokumen-list:hover {
+	background-color: #f7fcdd;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-admin_pemberitahuan-dokumen-list-active {
+	background-color: #ecf9b8;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-tab {
+	width: 540px;
+	min-height: 850px;
+	background-color: white;
+	float: left;
+	border-left: 1px solid #c0c0c0;
+	font-size: 12px;
+	box-shadow: -8px 0px 20px #dfdfdf;
+	-moz-box-shadow: -8px 0px 20px #dfdfdf;
+	-webkit-box-shadow: -8px 0px 20px #dfdfdf; 
+}
+
+.layan-admin_pemberitahuan_create-dokumen-tab-inside-top {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-tab-inside-top-header.full-width {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-tab-inside-top-header {
+	border-bottom: 1px solid #E9E9E9;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #777777;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-tab-inside-top-header.noBold {
+	border-bottom: 1px solid #E9E9E9;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	font-weight: 600;
+	font-size: 13px;
+	color: #777777;
+}
+
+.displayNone {
+	display: none;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-biaya {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: -6px;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-biaya td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 5px;
+	border: 1px solid #E9E9E9;
+}
+
+input[type="text"].layan-admin_pemberitahuan_create-dokumen-biaya-form-input,
+input[type="text"].layan-admin_pemberitahuan_create-dokumen-biaya-form-input-harga,
+input[type="text"].layan-admin_pemberitahuan_create-dokumen-biaya-form-input-lembar {
+	width: 97%;
+	outline: none;
+	border: 0px solid #c5c5c5;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	padding: 2px 2px 2px 5px;
+	font-size: 12px;
+	text-align: right;
+}
+
+input[type="text"].layan-admin_pemberitahuan_create-dokumen-biaya-form-input-total {
+	width: 97%;
+	outline: none;
+	border: 0px solid #c5c5c5;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	padding: 2px 2px 2px 5px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+input[type="text"].layan-admin_pemberitahuan_create-dokumen-biaya-form-input-border-bottom {
+	width: 350px;
+	outline: none;
+	margin-left: 5px;
+	border-bottom: 1px solid #E9E9E9;
+	border-top: 0px solid #E9E9E9;
+	border-left: 0px solid #E9E9E9;
+	border-right: 0px solid #E9E9E9;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 13px;
+	text-align: left;
+}
+
+input[type="text"].layan-admin_pemberitahuan_create-dokumen-biaya-form-input-border-bottom-keberatan {
+	width: 200px;
+	outline: none;
+	margin-left: 5px;
+	border-bottom: 1px solid #E9E9E9;
+	border-top: 0px solid #E9E9E9;
+	border-left: 0px solid #E9E9E9;
+	border-right: 0px solid #E9E9E9;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 13px;
+	text-align: left;
+}
+
+input[type="text"].layan-admin_pemberitahuan_create-dokumen-biaya-form-input-border-bottom-keberatan-1,
+input[type="text"].layan-admin_pemberitahuan_create-dokumen-biaya-form-input-border-bottom-keberatan-2 {
+	width: 75px;
+	outline: none;
+	margin-left: 5px;
+	border-bottom: 1px solid #E9E9E9;
+	border-top: 0px solid #E9E9E9;
+	border-left: 0px solid #E9E9E9;
+	border-right: 0px solid #E9E9E9;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 13px;
+	text-align: left;
+}
+
+input[type="text"].layan-admin_pemberitahuan_create-dokumen-biaya-form-input-full,
+input[type="text"].layan-admin_perpanjangan_create-dokumen-biaya-form-input-full,
+input[type="text"].layan-admin_perpanjangan_create-dokumen-biaya-form-input-full-kuasa-pemohon,
+input[type="text"].layan-admin_perpanjangan_create-dokumen-biaya-form-input-full-alamat-pemohon {
+	width: 490px;
+	outline: none;
+	border: 1px solid #E9E9E9;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	padding: 2px 2px 2px 5px;
+	font-size: 12px;
+	text-align: left;
+	margin-top: 5px;
+}
+
+textarea.layan-admin_pemberitahuan_create-dokumen-biaya-form-input-textarea {
+	width: 490px;
+	outline: none;
+	height: 100px;
+	border: 1px solid #E9E9E9;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	padding: 2px 2px 2px 5px;
+	font-size: 12px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	resize: none; 
+}
+
+.layan-admin_pemberitahuan_create-biaya-tdst {
+	background-color: #f8f8f8;
+}
+
+.layan-admin_pemberitahuan_create-activeState {
+	visibility: hidden;
+}
+
+.layan-original-height {
+	visibility: hidden;
+	height: 0px;
+}
+
+/*
+.layan-admin_pemberitahuan_create-dokumen-tab {
+	width: 620px;
+	min-height: 300px;
+	background-color: white;
+	float: right;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-tab-li {
+	float: left;
+	padding: 5px;
+	width: 92px;
+	border: 1px solid #c0c0c0;
+	margin-right: 0px;
+	margin-left: -1px;
+	margin-top: -1px;
+	text-align: center;
+	font-size: 12px;
+	color: #474747;
+	text-shadow: 0px 1px 1px white;
+	text-decoration: none;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-tab-li:hover {
+	color: #474747;
+	text-shadow: 0px 1px 1px white;
+	text-decoration: none;
+    background-color: white;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-tab-li:active {
+	color: #474747;
+	text-shadow: 0px 1px 1px white;
+	text-decoration: none;
+    background-color: #faf9f9;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-tab-li.last-li-layan-admin {
+	float: left;
+	padding: 5px;
+	width: 94px;
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+	border-right: 0px solid #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+	margin-right: 0px;
+	margin-left: -1px;
+	margin-top: -1px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-tab-li.last-li-layan-admin:hover {
+	color: #474747;
+	text-shadow: 0px 1px 1px white;
+	text-decoration: none;
+    background-color: white;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-tab-li.active-li-layan-admin {
+	float: left;
+	padding: 5px;
+	width: 94px;
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 0px solid #c0c0c0;
+	border-right: 0px solid #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+	margin-right: 0px;
+	margin-left: -1px;
+	margin-top: -1px;
+	text-align: center;
+	font-size: 12px;
+	color: #474747;
+	text-shadow: 0px 1px 1px white;
+	text-decoration: none;
+    background-color: white;
+}
+
+.layan-admin_pemberitahuan_create-dokumen-tab-li.active-li-layan-admin:hover {
+    background-color: white;
+}
+
+.displayNone {
+	display: none;
+}
+*/
+
+.layan-normal-form-td2st.small-font,
+.layan-normal-form-td3st.small-font {
+	font-size: 12px;
+}
+
+a.href.menu-active-primary {
+	background-image: url("../../library/capsule/layan/images/down-arrow.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 14px;
+	color: #474747;
+	-moz-transition: all 0.0s ease-out;
+    -o-transition: all 0.0s ease-out;
+    -webkit-transition: all 0.0s ease-out;
+    transition: all 0.0s ease-out;
+}
+
+.layan-admin_pemberitahuan-ul {
+	margin-left: 5px;
+	padding: 0;
+	font-size: 13px;
+}
+
+.layan-admin_pemberitahuan-ul-secondary {
+	margin-left: 20px;
+	padding: 0;
+	font-size: 13px;
+}
+
+.layan-overview-container {
+	overflow: hidden;
+	border-bottom: 1px solid silver;
+	text-shadow: 0px 1px white;
+	background: #ffffff; /* Old browsers */
+	-moz-box-shadow: 0px 2px 2px #d4d4d4;
+	-webkit-box-shadow: 0px 2px 2px #d4d4d4;
+	box-shadow: 0px 2px 2px #d4d4d4;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+	background: linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+
+#layan-overview-chart-1 {
+	border: 1px solid silver;
+	width: 420px;
+	height: 400px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+.layan-overview-separator {
+	height: 20px;
+	width: 100%;
+}
+
+.layan-overview-left-area {
+	float: left;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.layan-overview-right-area {
+	float: left;
+	overflow: hidden;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	width: 435px;
+}
+
+.layan-overview-form-container-left {
+	font-size: 13px;
+	margin-left: 20px;
+	border: 1px solid silver;
+	margin-top: 20px;
+	min-height: 100px;
+}
+
+.layan-overview-form-container {
+	padding: 10px;
+	font-size: 13px;
+}
+
+.layan-overview-document-list,
+.layan-overview-waktu-berakhir {
+	border: 1px solid silver;
+	min-height: 100px;
+	margin-bottom: 20px;
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+.layan-overview-header-portlet {
+	height: 20px;
+	padding: 10px;
+	margin-left: 20px;
+	color: gray;
+	font-size: 13px;
+	font-weight: bold;
+	border-top: 1px solid silver;
+	border-bottom: 0px solid silver;
+	border-left: 1px solid silver;
+	border-right: 1px solid silver;
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+.layan-overview-header-portlet-right {
+	height: 20px;
+	padding: 10px;
+	color: gray;
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: 1px solid silver;
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+
+}
+
+.layan-overview-clock {
+	border: 1px solid silver;
+	width: 382px;
+	min-height: 50px;
+	overflow: hidden;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.layan-overview-ul-secondary {
+	margin: 0;
+	padding: 0;
+	margin-left: 13px;
+}
+
+.layan-overview-span-bold {
+	font-weight: bold;
+}
+.layan-overview-sejarah-content {
+	width: 390px;
+	padding: 15px;
+}
+
+.layan-overview-sejarah-ul {
+	margin: 0;
+	padding: 0;
+}
+
+.layan-overview-sejarah-span {
+	font-size: 11px;
+	font-style: italic; 
+}
+
+.layan-overview-sejarah-date-header {
+	font-weight: bold;
+}
+
+.layan-overview-sejarah-date-header-global {
+	font-weight: normal;
+}
+
+.layan-overview-sejarah-content {
+	max-height: 800px;
+	overflow-y: auto; 
+}
+
+.layan-error-annoucement {
+	width: 855px;
+	padding: 10px;
+	font-size: 12px;
+	color: white;
+	margin-left: 5px;
+	background: rgb(255,26,0); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,26,0,1) 0%, rgba(255,26,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,26,0,1)), color-stop(100%,rgba(255,26,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,26,0,1) 0%,rgba(255,26,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,26,0,1) 0%,rgba(255,26,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,26,0,1) 0%,rgba(255,26,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,26,0,1) 0%,rgba(255,26,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1a00', endColorstr='#ff1a00',GradientType=0 ); /* IE6-9 */
+}
+
+.layan-error-annoucement-permohonan {
+	width: 845px;
+	padding: 10px;
+	font-size: 12px;
+	color: white;
+	margin-left: 5px;
+	background: rgb(255,26,0); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,26,0,1) 0%, rgba(255,26,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,26,0,1)), color-stop(100%,rgba(255,26,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,26,0,1) 0%,rgba(255,26,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,26,0,1) 0%,rgba(255,26,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,26,0,1) 0%,rgba(255,26,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,26,0,1) 0%,rgba(255,26,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1a00', endColorstr='#ff1a00',GradientType=0 ); /* IE6-9 */
+}
+
+.layan-admin_sejarah-container {
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.layan-admin_sejarah-sejarah-ul {
+	margin: 0;
+	padding: 0;
+}
+
+.layan-admin_sejarah-sejarah-ul li {
+	clear: right;
+}
+
+.layan-admin_sejarah-sejarah-span {
+	font-size: 11px;
+	font-style: italic; 
+}
+
+.layan-admin_attachment-container {
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.layan-admin_attachment-foto-container,
+.layan-admin_attachment-ktp-container,
+.layan-admin_attachment-akta-container,
+.layan-admin_attachment-kuasa-container,
+.layan-admin_attachment-ktpKuasa-container,
+.layan-admin_attachment-npwp-container {
+	width: 135px;
+	height: 100px;
+	margin-right: 11px;
+	float: left;
+	border: 1px solid #a5a5a5;
+	cursor: pointer;
+	background-color: white;
+	color: #a5a5a5;
+	text-align: center;
+	font-size: 12px;
+	position: relative;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-admin_attachment-foto-container:hover,
+.layan-admin_attachment-ktp-container:hover,
+.layan-admin_attachment-akta-container:hover,
+.layan-admin_attachment-kuasa-container:hover,
+.layan-admin_attachment-ktpKuasa-container:hover,
+.layan-admin_attachment-npwp-container:hover {
+	background-color: gray;
+	color: white;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-admin_attachment-hover {
+	background-color: gray;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-admin_attachment-npwp-container {
+	width: 135px;
+	height: 100px;
+	float: left;
+	border: 1px solid #a5a5a5;
+	background-color: white;
+	-moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.layan-admin_attachment-inside {
+	padding-top: 33px;
+}
+
+.layan-admin_attachment-inside-exist {
+	padding-top: 5px;
+}
+
+.layan-admin_attachment-progressBar {
+	margin-top: 27px;
+	width: 100%;
+	height: 20px;
+	color: white;
+	font-size: 11px;
+	opacity: 0.6;
+	-moz-opacity: 0.6;
+	-webkit-opacity: 0.6;
+	position: absolute;
+	bottom: 0;
+	background: rgb(125,126,125); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+
+}
+
+.layan-admin_attachment-progressBar-exist {
+	margin-top: 17px;
+	width: 100%;
+	height: 20px;
+	color: white;
+	font-size: 11px;
+	opacity: 0.6;
+	-moz-opacity: 0.6;
+	-webkit-opacity: 0.6;
+	position: absolute;
+	bottom: 0;
+	z-index: 1000000;
+background: rgb(125,126,125); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+
+}
+
+.layan-admin_attachment-inside-delete-icon {
+	background-image: url("../../library/capsule/layan/images/delete.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #a3a3a3;
+	cursor: pointer;
+	background-color: white;
+	margin-left: -1px;
+	margin-top: -1px;
+	position: absolute;
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	-webkit-opacity: 0.8;
+}
+
+.layan-admin_attachment-inside-delete-icon:hover {
+	box-shadow: 0px 1px 2px #8f8f8f;
+	visibility: visible;
+}
+
+.layan-admin_attachment-inside-delete-icon:active {
+	box-shadow: inset 0px 1px 2px #8f8f8f;
+	visibility: visible;
+}
+
+.layan-overview-form-container-waktu {
+	padding: 10px;
+	border-bottom: 1px solid silver;
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.layan-overview-form-container-waktu-container {
+
+}
+
+.layan-overview-form-container-attachment-dokumen {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 12px;
+	margin-left: 1px;
+	margin-bottom: -1px;
+}
+
+.layan-overview-form-container-attachment-dokumen tr td {
+	padding: 5px;
+	border-right: 1px solid silver;
+	border-bottom: 1px solid silver;
+}
+
+.layan-overview-form-container-waktu-dokumen {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 12px;
+	margin-left: 1px;
+}
+
+.layan-overview-form-container-waktu-dokumen tr td {
+	padding: 5px;
+	border-right: 1px solid silver;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.layan-overview-li-time-green {
+	background-color: #cbe688;
+	border: 1px solid silver;
+	float: left;
+	font-size: 11px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	margin-right: 17px;
+	line-height: 30px;
+}
+
+.layan-overview-li-time-yellow {
+	background-color: #e6d088;
+	border: 1px solid silver;
+	float: left;
+	font-size: 11px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	margin-right: 17px;
+	line-height: 30px;
+}
+
+.layan-overview-li-time-red {
+	background-color: #e68e88;
+	border: 1px solid silver;
+	float: left;
+	font-size: 11px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	margin-right: 17px;
+	line-height: 30px;
+}
+
+.layan-overview-li-time-normal {
+	background-color: #f5f5f5;
+	border: 1px solid silver;
+	float: left;
+	font-size: 11px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	margin-right: 17px;
+	line-height: 30px;
+}
+
+.layan-overview-timeline-total {
+	width: 100%;
+	height: 50px;
+	overflow-x: auto;
+	margin-left: 25px;
+}
+
+.layan-overview-separator-floating {
+	position: absolute;
+	width: 875px;
+	margin-left: -5px;
+	margin-top: 8px;
+	z-index: -100000; 
+}
+
+.layan-overview-hr {
+	border-color: silver;
+}
+
+.layan-form-note-perpanjangan {
+	border: 1px solid #000;
+	width: 100%;
+	min-height: 100px;
+	
+}
+
+#main_wrap {
+	
+}
+
+#main_menu .layan-icon-container a,
+#main_menu .layan-logout-container a {
+	padding: 0;
+}
+
+.layan-admin_settings-container {
+	overflow: hidden;
+	background-color: #FFFFF8;
+	border: 1px solid #d8d8d8;
+}
+
+.layan-admin_settings-left {
+	float: left;
+	width: 200px;
+}
+
+.layan-admin_settings-left ul li {
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d8d8d8;
+	background-color: white;
+	cursor: pointer;
+}
+
+.layan-admin_settings-right {
+	float: left;
+	width: 672px;
+	min-height: 500px;
+	padding: 20px;
+	border-left: 1px solid #dfdfdf;
+	box-shadow: -8px 0px 20px #dfdfdf;
+	-moz-box-shadow: -8px 0px 20px #dfdfdf;
+	-webkit-box-shadow: -8px 0px 20px #dfdfdf; 
+	background-color: white;
+}
+
+.layan-admin_settings-right-general-table {
+	width: 675px;
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+.layan-admin_settings-right-general-table td {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.layan-admin_settings-right-time-table {
+	width: 680px;
+	border-collapse: collapse;
+	margin-left: -7px;
+	margin-bottom: 10px;
+}
+
+.layan-admin_settings-right-time-table td {
+	padding: 7px;
+	vertical-align: middle;
+}
+
+.layan-admin_settings-holiday-action {
+	width: 60px;
+}
+
+.layan-admin_settings-headers {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.layan-admin_settings-table-container {
+	clear: both;
+}
+
+.layan-admin_settings-yearPicker {
+	overflow: hidden;
+	float: right;
+}
+
+.layan-admin_settings-top-container {
+	padding-top: 0px;
+	padding-bottom: 10px;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #d8d8d8;
+	overflow: hidden;
+}
+
+.layan-admin_settings-submit-container {
+	margin-top: 10px;
+	padding-top: 15px;
+	border-top: 1px solid #d8d8d8;
+}
+
+.layan-admin_settings-hr {
+	border-top: 1px solid #d8d8d8;
+	border-bottom: 0px solid #d8d8d8;
+	border-left: 0px solid #d8d8d8;
+	border-right: 0px solid #d8d8d8;
+}
+
+.layan-admin_sejarah-container-global {
+	height: 527px;
+	overflow-y: auto;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.layan-admin_sejarah-container-global ul li {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.layan-permohonan-icons-container-global {
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.layan-library-li {
+	float: left;
+	margin-right: 22px;
+	margin-left: 2px;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+
+.layan-library-li-last {
+	float: left;
+	margin-right: 22px;
+	margin-bottom: 25px;
+}
+
+.layan-library-image {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px #838383;
+	-moz-box-shadow: 0px 0px 1px #838383;
+	-webkit-box-shadow: 0px 0px 1px #838383; 
+	-moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+/*
+.layan-library-image:hover {
+	cursor: pointer;
+	box-shadow: 0px 0px 15px #dfdfdf;
+	-moz-box-shadow: 0px 0px 15px #dfdfdf;
+	-webkit-box-shadow: 0px 0px 15px #dfdfdf; 
+	-moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+*/
+.layan-library-image-active {
+	box-shadow: 0px 0px 7px #467dbe;
+	-moz-box-shadow: 0px 0px 7px #467dbe;
+	-webkit-box-shadow: 0px 0px 7px #467dbe;
+}
+
+.layan-checkboxs-print{
+	background-image: url("../../view/pages/system/images/checkbox_unchecked.png");
+	
+margin-right: 5px;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #fff;
+
+	float: left;
+}
+.layan-checkbox-print{
+	margin-top: 1px;
+	margin-right: 5px;
+	width: 10px;
+	height: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	border: 1px solid #000;
+	float: left;
+}
+.layan-checkbox-checked-print{
+	background-image: url("../../view/pages/system/images/checkbox_checked.png");
+	
+margin-right: 5px;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #fff;
+
+	float: left;
+	
+}
+
+.layan-library-content-container {
+	overflow-y: auto;
+	height: 689px;
+	clear: both;
+	border-top: 1px solid #E6E6E6;
+	padding-top: 20px;
+	margin-top: 30px;
+}
+
+.layan-libraryFilter-container,
+.layan-libraryFilter-container2 {
+	padding-bottom: 15px;
+	width: 100%;
+}
+
+.layan-libraryFilter-container-header,
+.layan-libraryFilter-container-header2 {
+	padding-top: 5px;
+	padding-bottom: 18px;
+	margin-bottom: 15px;
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.layan-libraryFilter-1 {
+	float: left;
+	margin-right: 20px;
+}
+
+.layan-libraryFilter-2 {
+	float: left;
+	margin-right: 20px;
+}
+
+.layan-libraryFilter-3 {
+	float: left;
+	margin-right: 20px;
+}
+
+.layan-libraryFilter-4 {
+	float: left;
+}
+
+input[type="submit"].layan-libraryFilter-4-input,
+input[type="submit"].layan-libraryFilter-4-input-layan,
+input[type="submit"].layan-libraryFilter-4-input-layan-guest,
+input[type="submit"].layan-libraryFilter-4-input-layan-user {
+	position: relative;
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	color: #333;
+	font-family: Helvetica,arial,freesans,clean,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 24px;
+	text-shadow: 0 1px 0 white;
+	white-space: nowrap;
+	border: 1px solid #D4D4D4;
+	border-bottom-color: #BCBCBC;
+	border-radius: 3px;
+	background: #FAFAFA;
+	background: -moz-linear-gradient(#FAFAFA,#EAEAEA);
+	background: -webkit-linear-gradient(#FAFAFA,#EAEAEA);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')";
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+}
+
+input[type="submit"].layan-libraryFilter-4-input:hover,
+input[type="submit"].layan-libraryFilter-4-input-layan:hover,
+input[type="submit"].layan-libraryFilter-4-input-layan-guest:hover,
+input[type="submit"].layan-libraryFilter-4-input-layan-user:hover {
+	color:#fff;
+	text-decoration:none;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.3);
+	border-color:#518cc6;
+	border-bottom-color:#2a65a0;
+	background:#599bdc;
+	background:-moz-linear-gradient(#599bdc,#3072b3);
+	background:-webkit-linear-gradient(#599bdc,#3072b3);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bdc',endColorstr='#3072b3')";
+}
+
+input[type="submit"].layan-libraryFilter-4-input:active,
+input[type="submit"].layan-libraryFilter-4-input-layan:active,
+input[type="submit"].layan-libraryFilter-4-input-layan-guest:active,
+input[type="submit"].layan-libraryFilter-4-input-layan-user:active {
+	color:#fff;
+	text-decoration:none;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.3);
+	border-color:#518cc6;
+	border-bottom-color:#2a65a0;
+	background:#599bdc;
+	background:-moz-linear-gradient(#3072b3 0%, #599bdc 100%);
+	background:-webkit-linear-gradient(#3072b3 0%, #599bdc 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bdc',endColorstr='#3072b3')";
+}
+
+.layan-libraryFilter-5 {
+	float: left;
+	margin-right: 20px;
+}
+
+input[type="text"].layan-libraryFilter-2-input {
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+	background-image: -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -ms-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	border: 1px solid #aaa;
+	margin: 0;
+	padding: 4px;
+	cursor: text;
+	overflow: hidden;
+	height: auto !important;
+	height: 1%;
+	position: relative;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	width: 100px;
+	font-size: 12px;
+}
+
+select.layan-libraryFilter-1-select {
+	font-size: 12px;
+	width: 220px;
+}
+
+select.layan-libraryFilter-2-select {
+	width: 170px;
+	font-size: 12px;
+}
+
+select.layan-libraryFilter-5-select {
+	font-size: 12px;
+	width: 190px;
+}
+
+.layan-library_content-table {
+	font-size: 12px;
+	width: 100%;
+	position: relative;
+	border-collapse: collapse;
+}
+
+.layan-library_content-table td {
+	padding: 3px;
+	vertical-align: text-top;
+}
+
+.layan-library_content-table-vertical {
+	width: 110px;
+}
+
+#layan-libraryMetadata {
+	padding-left: 30px;
+	padding-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	position: relative;
+}
+
+#layan-libraryMetadata-metaContainer {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+#layan-libraryMetadata-metaContainer-header {
+	padding-left: 2px;
+	padding-bottom: 19px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #E6E6E6;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#layan-libraryMetadata-tagContainer {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+#layan-libraryMetadata-tagContainer-header {
+	padding-left: 2px;
+	padding-bottom: 19px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #E6E6E6;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#layan-libraryMetadata-linkContainer {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+#layan-libraryMetadata-linkContainer-header {
+	padding-left: 2px;
+	padding-bottom: 19px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #E6E6E6;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#layan-libraryMetadata-actionContainer {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+#layan-libraryMetadata-actionContainer-header {
+	padding-left: 2px;
+	padding-bottom: 19px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #E6E6E6;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.layan-library_content-li-horizontal {
+	float: left;
+	margin-right: 5px;
+	font-size: 12px;
+}
+
+input[type="text"].layan-library_content-link-horizontal {
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+	background-image: -webkit-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -moz-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -o-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: -ms-linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	background-image: linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+	border: 1px solid #aaa;
+	margin: 0;
+	padding: 4px;
+	cursor: text;
+	overflow: hidden;
+	height: auto !important;
+	height: 1%;
+	position: relative;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	width: 96%;
+	font-size: 12px;
+}
+
+.layan-library_content-action-horizontal {
+	float: left;
+	margin-right: 10px;
+}
+
+.layan-library_content-action-horizontal a,
+.layan-normal-create-pemberitahuan,
+input[type="submit"].layan-normal-create-perpanjangan,
+input[type="submit"].layan-normal-create-keberatan {
+	position: relative;
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	color: #333;
+	font-family: Helvetica,arial,freesans,clean,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 24px;
+	text-shadow: 0 1px 0 white;
+	white-space: nowrap;
+	border: 1px solid #D4D4D4;
+	border-bottom-color: #BCBCBC;
+	border-radius: 3px;
+	background: #FAFAFA;
+	background: -moz-linear-gradient(#FAFAFA,#EAEAEA);
+	background: -webkit-linear-gradient(#FAFAFA,#EAEAEA);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')";
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+	text-transform: none;
+}
+
+.layan-library_content-action-horizontal a:hover,
+.layan-normal-create-pemberitahuan:hover,
+input[type="submit"].layan-normal-create-perpanjangan:hover,
+input[type="submit"].layan-normal-create-keberatan:hover {
+	color:#fff;
+	text-decoration:none;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.3);
+	border-color:#518cc6;
+	border-bottom-color:#2a65a0;
+	background:#599bdc;
+	background:-moz-linear-gradient(#599bdc,#3072b3);
+	background:-webkit-linear-gradient(#599bdc,#3072b3);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bdc',endColorstr='#3072b3')";
+}
+
+.layan-library_content-action-horizontal a:active,
+.layan-normal-create-pemberitahuan:active,
+input[type="submit"].layan-normal-create-perpanjangan:active,
+input[type="submit"].layan-normal-create-keberatan:active {
+	color:#fff;
+	text-decoration:none;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.3);
+	border-color:#518cc6;
+	border-bottom-color:#2a65a0;
+	background:#599bdc;
+	background:-moz-linear-gradient(#3072b3 0%, #599bdc 100%);
+	background:-webkit-linear-gradient(#3072b3 0%, #599bdc 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bdc',endColorstr='#3072b3')";
+}
+
+.layan-icon-float-left-new-orderNumber {
+	color: #72bcde;
+}
+
+.layan-print-order-stub {
+	display: none;
+}
+
+.layan-print-order-stub ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.layan-print-order-stub li {
+	list-style: none;
+	font-family: sans-serif inherit;
+}
+
+.layan-keberatan-select-finish {
+	width: 100%;
+}
+
+.layan-overview-form-container-status-table {
+	border-collapse: collapse;
+	width: 101%;
+	margin-bottom: -1px;
+}
+
+.layan-overview-form-container-status-table td {
+	font-size: 12px;
+	padding: 5px;
+	border-bottom: 1px solid #cdcdcd;
+	border-right: 1px solid #cdcdcd;
+}
+
+.container_library {
+	margin-left: 45px;
+}
+
+.layan-admin_settings-images-container {
+
+	border: 1px solid silver;
+}
